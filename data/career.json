@@ -143,5 +143,690 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-personal-operating-manual",
+    "arena": "career",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "user-manual",
+      "communication",
+      "collaboration",
+      "clarity",
+      "个人说明书",
+      "协作效率"
+    ],
+    "title": {
+      "zh": "写一份“个人协作说明书”，减少隐性沟通摩擦",
+      "en": "Writing a Personal Operating Manual to Cut Collaboration Friction"
+    },
+    "old_assumption": {
+      "zh": "合作默契只能靠相处久了慢慢猜，把偏好和边界写出来显得生硬。",
+      "en": "Working alignment happens naturally over time; stating preferences upfront feels stiff."
+    },
+    "new_shift": {
+      "zh": "多数协作摩擦源于默认规则不同——一份坦诚、简洁的个人协作说明，能提前省掉大量猜忌与返工。",
+      "en": "Much collaboration friction comes from unspoken defaults—a short, candid guide to how you work prevents guesswork and rework."
+    },
+    "seed_prompts": {
+      "zh": [
+        "根据我的工作习惯：[简述你的作息/沟通偏好/擅长与短板]，帮我起草一份 300 字左右的“个人协作说明书”，涵盖高效沟通方式、深度工作时段和协作红线。",
+        "在我过往的团队或项目合作中，最常出现的误会是：[描述常见误会]。请帮我写 2 条清晰、不生硬的协作约定放进自我介绍或开工对齐里。"
+      ],
+      "en": [
+        "Based on how I work—[Briefly Describe Schedule, Comms Style, Strengths & Quirks]—draft a concise personal operating manual covering communication, deep work blocks, and boundaries.",
+        "A recurring misunderstanding in my collaborations is: [Describe Friction]. Write 2 clear, natural working agreements I can share upfront when kicking off projects."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Manager / Teammate READMEs",
+        "url": "https://readme.so",
+        "note": {
+          "zh": "许多高绩效团队流行公开个人 README，用显性规则替代隐性猜测",
+          "en": "Personal READMEs replace guesswork with clear expectations in modern teams"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-reusable-playbook-leverage",
+    "arena": "career",
+    "lenses": [
+      "invisible-friction",
+      "cost-collapse"
+    ],
+    "tags": [
+      "playbooks",
+      "templates",
+      "leverage",
+      "scale",
+      "可复用手册",
+      "个人杠杆"
+    ],
+    "title": {
+      "zh": "把“做过一次的复杂事”沉淀成可复用手册，而不是每次重头干",
+      "en": "Turning One-Off Hard Tasks into Reusable Playbooks"
+    },
+    "old_assumption": {
+      "zh": "事情做完了就算翻篇，下次遇到类似任务再临时想办法、重新摸索。",
+      "en": "Once a task is done, move on—figure it out again next time similar work comes up."
+    },
+    "new_shift": {
+      "zh": "把踩坑经验、检查清单和 AI 提示词固化成一份结构化 Playbook 后，下次同类任务启动速度会快 5 倍，还能直接复用给他人或 Agent。",
+      "en": "Packaging hard-won steps, checklists, and prompts into a playbook makes the next run 5x faster and gives you a reusable asset for teammates or agents."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我最近刚完成一件比较复杂的任务：[描述任务与踩过的坑]。请帮我把它整理成一份可复用的标准操作手册（Playbook），包含前置准备、执行步骤、常见陷阱和验收标准。",
+        "盘点我过去一个月里重复做过至少两次的 [某类工作任务]，挑出最值得沉淀成模板/清单的 2 项，给出最小骨架。"
+      ],
+      "en": [
+        "I recently finished a complex task: [Describe Task & Pitfalls]. Turn it into a reusable playbook with prep steps, execution order, common traps, and a done checklist.",
+        "Look across [Type of Work] I did more than once last month—pick the 2 best candidates to turn into reusable playbooks and outline their minimal structure."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Standard Operating Playbooks",
+        "url": "https://www.atlassian.com/team-playbook",
+        "note": {
+          "zh": "把隐性经验显性化为可复用剧本，是摆脱低效重复劳动的关键一步",
+          "en": "Turning tacit know-how into repeatable playbooks eliminates ground-zero restarts"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-energy-aligned-scheduling",
+    "arena": "career",
+    "lenses": [
+      "first-principles",
+      "role-inversion"
+    ],
+    "tags": [
+      "energy",
+      "chronotype",
+      "deep-work",
+      "sustainability",
+      "精力节律",
+      "排程"
+    ],
+    "title": {
+      "zh": "按“精力曲线”排程，而不是按“日历格子”硬塞任务",
+      "en": "Scheduling Around Energy Curves Instead of Packing Calendar Slots"
+    },
+    "old_assumption": {
+      "zh": "只要把待办事项塞进日历的空白时间段，一天就算安排好了。",
+      "en": "A good day is simply filling open calendar blocks with to-do items."
+    },
+    "new_shift": {
+      "zh": "不同时间段人的认知带宽与精力质量差异巨大；把高创造力/高决策任务放在精力峰值，把低认知琐事留给低谷，同样工时产出完全不同。",
+      "en": "Cognitive sharpness fluctuates across the day—matching high-judgment work to peak energy and low-friction chores to troughs changes output without adding hours."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我一天中精力最清醒、最适合深度思考的时段是：[填时段]，最容易犯困或走神的是：[填时段]。请帮我把 [你的核心任务与日常琐事] 按精力高低重新匹配排程。",
+        "当我下午或晚上精力明显下滑时，有哪些“低脑力消耗但有推进感”的收尾任务可以替代硬啃难题？"
+      ],
+      "en": [
+        "My peak focus window is [Peak Hours] and my energy dips around [Low Hours]. Re-map my [Core Tasks & Routine Chores] so deep thinking hits peak energy.",
+        "When my energy drops later in the day, what low-cognitive-load tasks still move things forward without forcing hard problem-solving?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "When (Daniel H. Pink)",
+        "url": "https://www.danpink.com/books/when/",
+        "note": {
+          "zh": "时间与节律研究表明，任务类型与生理/认知节律的匹配度直接影响表现",
+          "en": "Research on timing shows matching analytical and creative work to daily energy rhythms improves outcomes"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-portfolio-of-small-bets",
+    "arena": "career",
+    "lenses": [
+      "cost-collapse",
+      "cross-domain"
+    ],
+    "tags": [
+      "optionality",
+      "side-projects",
+      "career-resilience",
+      "期权思维",
+      "抗脆弱"
+    ],
+    "title": {
+      "zh": "靠“低成本小实验组合”攒职业期权，而不是把筹码全押在一处",
+      "en": "Building Career Optionality Through Small Low-Cost Bets"
+    },
+    "old_assumption": {
+      "zh": "精力有限，只能死守一条主线，做点小实验就是“不务正业、分散注意力”。",
+      "en": "With limited bandwidth, you must stay 100% locked on one track—small experiments feel like a distraction."
+    },
+    "new_shift": {
+      "zh": "单点押注在环境突变时很脆弱；用少量业余时间跑低成本、可复用的小项目或小研究，既能反哺主业，又能悄悄攒出备选路径和真实作品。",
+      "en": "Single-track bets carry fragility when markets shift; small, low-cost experiments build real proof of work and optionality without betting the farm."
+    },
+    "seed_prompts": {
+      "zh": [
+        "结合我目前的主业/方向：[简述现状] 和每周最多可投入的 [如 3-5 小时] 时间，设计 2 个“低成本、能反哺主业又积累长期资产”的微型探索方向。",
+        "如何判断一个副线实验该“继续加码”还是“果断止损关掉”，帮我定一套简单客观的退出标准。"
+      ],
+      "en": [
+        "Given my current track [Briefly Describe] and up to [e.g. 3-5] hours a week, propose 2 low-cost experiments that reinforce my main work while building long-term assets.",
+        "Help me set clear, objective stop-or-double-down criteria so side experiments don't become endless guilt or drift."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Antifragility & Optionality (Nassim Nicholas Taleb)",
+        "url": "https://en.wikipedia.org/wiki/Antifragile",
+        "note": {
+          "zh": "保留多条低成本选项能显著提升面对不确定性时的抗脆弱能力",
+          "en": "Maintaining low-cost options increases resilience when external conditions change"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-explicit-expectation-alignment",
+    "arena": "career",
+    "lenses": [
+      "invisible-friction",
+      "first-principles"
+    ],
+    "tags": [
+      "alignment",
+      "expectations",
+      "feedback",
+      "growth",
+      "期望对齐",
+      "沟通闭环"
+    ],
+    "title": {
+      "zh": "在开工前把“验收标准与预期”说透，而不是做完再返工",
+      "en": "Aligning on 'Done' Criteria Upfront Instead of Reworking at the End"
+    },
+    "old_assumption": {
+      "zh": "任务接过来先埋头做完再交差，做出来不合意再改，这叫“能干、不挑活”。",
+      "en": "Take the task, grind it out, present the finished result, and revise if someone asks for changes."
+    },
+    "new_shift": {
+      "zh": "很多加班和返工源于一开始对“什么算做好”没有对齐；花 5 分钟确认核心目标、边界和样例标准，往往能省掉后面 5 轮修改。",
+      "en": "Much late-stage rework comes from unaligned definitions of 'done'—spending 5 minutes upfront confirming goals, scope, and examples saves rounds of revision."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我即将开始一项 [项目/任务/合作]：[简述任务]。请帮我列出一份“开工 5 分钟对齐清单”，帮我把模糊要求变成可验收的具体标准。",
+        "当上级或合作方给的需求很模糊、甚至前后矛盾时，帮我写一套温和但清晰的“澄清与确认话术”，既不显得顶撞又能把边界定准。"
+      ],
+      "en": [
+        "I'm about to start [Project/Task/Collaboration]: [Brief Summary]. Give me a 5-minute kickoff checklist to turn vague asks into clear acceptance criteria.",
+        "When a request is fuzzy or shifting, write calm, constructive clarifying questions that lock down scope and 'done' criteria early."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Definition of Done & Written Specs",
+        "url": "https://basecamp.com/shapeup",
+        "note": {
+          "zh": "明确边界与“完成定义”能大幅减少中途改向与无效返工",
+          "en": "Clear boundaries and appetite/done definitions prevent mid-stream thrash and rework"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-teaching-to-cement-mastery",
+    "arena": "career",
+    "lenses": [
+      "role-inversion",
+      "cost-collapse"
+    ],
+    "tags": [
+      "learning",
+      "feynman",
+      "teaching",
+      "mastery",
+      "以教促学",
+      "费曼技巧"
+    ],
+    "title": {
+      "zh": "用“教别人 / 写给新手看”来检验自己是不是真懂",
+      "en": "Testing True Mastery by Explaining Clearly to Beginners"
+    },
+    "old_assumption": {
+      "zh": "看懂了概念、收藏了资料，就等于自己已经掌握了这项能力。",
+      "en": "Reading explanations and saving bookmarks means you've mastered the topic."
+    },
+    "new_shift": {
+      "zh": "一讲给外行或写进教程就卡壳的地方，正是你理解最虚的盲区；把学到的东西用大白话讲清楚，既能补漏洞又能留下公开资产。",
+      "en": "Where you stumble explaining a concept plainly to a beginner is where your understanding has gaps—teaching exposes blindspots and creates shareable assets."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我最近在学 [某个新概念/新工具/新方法]：[简述你的理解]。请扮演一位好奇但没有背景的新手，向我提 4 个最容易暴露理解漏洞的“为什么/如果……会怎样”问题。",
+        "帮我把我对 [某项技能或概念] 的理解，改写成一段没有黑话、带生活类比的 150 字通俗解释。"
+      ],
+      "en": [
+        "I've been learning [Concept/Tool/Method]: [Summarize Your Understanding]. Act as a curious beginner and ask 4 probing questions that expose any fuzzy spots in my grasp.",
+        "Rewrite my explanation of [Concept/Skill] in plain, jargon-free language with a relatable everyday analogy."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Feynman Learning Technique",
+        "url": "https://nesslabs.com/feynman-technique",
+        "note": {
+          "zh": "用通俗语言复述与教学是检验真懂与发现认知盲区的高效方法",
+          "en": "Explaining ideas simply is a sharp test of real understanding and hidden gaps"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-high-trust-relationship-compounding",
+    "arena": "career",
+    "lenses": [
+      "invisible-friction",
+      "cross-domain"
+    ],
+    "tags": [
+      "relationships",
+      "reputation",
+      "trust",
+      "compounding",
+      "信任复利",
+      "长期合作"
+    ],
+    "title": {
+      "zh": "靠“说话算话与靠谱交付”积累信任复利，而不是刷存在感",
+      "en": "Compounding Trust Through Reliable Follow-Through Over Loud Networking"
+    },
+    "old_assumption": {
+      "zh": "拓展人脉和职业机会，靠的是多加好友、多参加社交场合或频繁客套。",
+      "en": "Growing opportunities means collecting contacts, attending events, and staying visible everywhere."
+    },
+    "new_shift": {
+      "zh": "在信息噪音越来越大的环境里，“答应的事按时做到、遇到坑提前说清、不制造额外麻烦”的稀缺度极高，会带来长期、低摩擦的回头合作。",
+      "en": "In noisy environments, reliability—following through, flagging risks early, and making others' lives easier—compounds into high-trust, repeat collaborations."
+    },
+    "seed_prompts": {
+      "zh": [
+        "审视我目前正在推进的几项合作或承诺：[简述现状]，帮我检查有没有哪件事进度滞后却还没主动同步，设计一句真诚、不推卸的提前沟通话术。",
+        "结合 [你的工作或合作场景]，列出 3 个看似很小、但最能让合作方觉得“这人特别靠谱、愿意长期合作”的日常细节。"
+      ],
+      "en": [
+        "Check my current commitments or collaborations—[Brief Summary]—and draft a transparent, proactive update for anything running behind or hitting a snag.",
+        "In [Your Work or Collaboration Context], list 3 small habits that signal high reliability and make people eager to work with you again."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Reliability as Career Leverage",
+        "url": "https://fs.blog",
+        "note": {
+          "zh": "长期主义合作中，可预测性与诚信往往比短期曝光更能带来优质机会",
+          "en": "Predictability and follow-through often unlock stronger opportunities over time than surface visibility"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-asking-high-signal-questions",
+    "arena": "career",
+    "lenses": [
+      "role-inversion",
+      "invisible-friction"
+    ],
+    "tags": [
+      "questions",
+      "mentorship",
+      "communication",
+      "problem-solving",
+      "高质量提问",
+      "沟通杠杆"
+    ],
+    "title": {
+      "zh": "提“带背景和尝试过什么”的问题，拿到 10 倍有用的回答",
+      "en": "Asking Context-Rich Questions That Earn High-Signal Answers"
+    },
+    "old_assumption": {
+      "zh": "向别人或 AI 请教时，丢一句“怎么办”或“帮我看看这个”，对方自然会给完整答案。",
+      "en": "Asking 'what should I do?' or pasting a raw link without context is enough to get a great answer."
+    },
+    "new_shift": {
+      "zh": "把“目标、已有上下文、已经试过的做法、具体卡点”讲清楚，别人和 AI 都能跳过废话直接给干货，请教成本和对方负担都会大幅降低。",
+      "en": "Sharing goal, context, what you already tried, and the exact blocker skips generic fluff and makes it easy for busy people or AI to give sharp help."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我想向 [某位资深同行/导师/专家] 请教 [某个具体问题]：[简述你的问题与现状]。请帮我整理一段 120 字以内、重点突出、尊重对方时间的请教消息。",
+        "把下面这段我准备发出去的求助/提问：[粘贴提问]，改写成结构更清晰、更容易被快速回答的版本。"
+      ],
+      "en": [
+        "I want to ask [Experienced Peer or Mentor] about [Specific Problem]: [Context & What I Tried]. Draft a respectful, concise message under 120 words that makes it easy to answer.",
+        "Tighten this help request—[Paste Draft]—so the context, blocker, and specific ask stand out at a glance."
+      ]
+    },
+    "signals": [
+      {
+        "name": "How to Ask Good Questions",
+        "url": "https://github.com",
+        "note": {
+          "zh": "清晰的上下文与明确的问题边界，是获得高质量协助的最强加速器",
+          "en": "Clear context and specific blockers consistently unlock better answers from peers and tools"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-deliberate-skill-upgrade-sprint",
+    "arena": "career",
+    "lenses": [
+      "cost-collapse",
+      "first-principles"
+    ],
+    "tags": [
+      "skill-sprint",
+      "learning",
+      "practice",
+      "growth",
+      "技能冲刺",
+      "刻意练习"
+    ],
+    "title": {
+      "zh": "用“两周刻意冲刺 + 真实作品”练技能，而不是漫无目的看课",
+      "en": "Running a 2-Week Skill Sprint Around a Real Output Instead of Passive Courses"
+    },
+    "old_assumption": {
+      "zh": "学一项新技能应该先把整套课程、长教程或厚书刷完，再考虑动手做东西。",
+      "en": "Learning a new skill means finishing full courses, tutorials, or books before making something real."
+    },
+    "new_shift": {
+      "zh": "光看课很容易产生“学会了”的错觉；定一个两周小目标，围绕一个真实小作品边做边查、边改边练，掌握速度通常会快得多。",
+      "en": "Passive watching creates an illusion of competence—a 2-week sprint anchored to a small real output builds practical skill much faster."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我想在接下来两周里快速上手 [某项具体技能/工具]：[简述你的基础与目标]。请帮我设计一个“以做出 1 个小作品/完成 1 个真实任务为终点”的两周冲刺计划。",
+        "针对 [你想练的技能]，帮我列出最核心的 20% 基础知识和最容易踩的 3 个新手坑，让我跳过冗余内容直接动手。"
+      ],
+      "en": [
+        "I want to build working momentum in [Skill or Tool] over the next 2 weeks: [Background & Goal]. Design a hands-on sprint centered on one small real deliverable.",
+        "For [Skill], highlight the core 20% fundamentals to learn first and 3 common beginner traps so I can start building right away."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Project-Based & Deliberate Practice",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "围绕真实问题与作品倒逼学习，能让零散知识点真正连成可用能力",
+          "en": "Learning anchored to a concrete deliverable turns scattered notes into usable skill"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-translating-jargon-for-stakeholders",
+    "arena": "career",
+    "lenses": [
+      "cross-domain",
+      "role-inversion"
+    ],
+    "tags": [
+      "communication",
+      "translation",
+      "stakeholders",
+      "impact",
+      "跨界翻译",
+      "对齐共识"
+    ],
+    "title": {
+      "zh": "做“跨语言翻译器”，把技术/专业细节翻成对方关心的结果",
+      "en": "Translating Technical & Domain Details into What Stakeholders Care About"
+    },
+    "old_assumption": {
+      "zh": "把底层实现细节、专业术语和复杂过程讲得越全，别人越能理解你的工作价值。",
+      "en": "Explaining every technical detail, jargon term, and internal step proves the value of your work."
+    },
+    "new_shift": {
+      "zh": "不同角色关心的语言完全不同——业务方看结果与风险，协作者看接口与节点；能把专业动作翻译成对方听得懂、用得上的表达，沟通效率会翻倍。",
+      "en": "Different stakeholders care about different outcomes and risks—translating domain work into their language cuts friction and gets faster alignment."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我最近做了一项 [技术/分析/设计/运营] 工作：[简述你做了什么与核心价值]。请帮我分别写成给“业务/决策方看（重结果与影响）”和给“协作伙伴看（重配合与边界）”的两个简短版本。",
+        "在 [你的工作场景] 中，哪些专业术语或内部细节最容易让非同背景的人听不懂？帮我改写成大白话。"
+      ],
+      "en": [
+        "I recently worked on [Technical, Analytical, Design, or Ops Work]: [Summary & Impact]. Write two concise updates—one for decision-makers (outcomes/risks) and one for collaborators (handoffs/next steps).",
+        "Which jargon or internal details in [Your Role] tend to confuse non-specialists, and how can I phrase them plainly?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Clear Stakeholder Communication",
+        "url": "https://blog.pragmaticengineer.com",
+        "note": {
+          "zh": "根据受众关切点调整表达重点，是跨职能推进中最实用也最常被低估的能力",
+          "en": "Tailoring updates to what each audience cares about speeds up alignment across roles"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-building-durable-work-samples",
+    "arena": "career",
+    "lenses": [
+      "cost-collapse",
+      "invisible-friction"
+    ],
+    "tags": [
+      "work-samples",
+      "case-studies",
+      "craft",
+      "career",
+      "代表作",
+      "能力沉淀"
+    ],
+    "title": {
+      "zh": "每做完一个拿得出手的项目，顺手留一份“脱敏复盘样本”",
+      "en": "Saving a Clean Case Study After Every Meaningful Project"
+    },
+    "old_assumption": {
+      "zh": "等以后要跳槽、接单或做分享时，再临时翻旧文件、拼凑案例。",
+      "en": "Wait until you need a job application, client pitch, or talk to dig through old files and piece together examples."
+    },
+    "new_shift": {
+      "zh": "隔半年再回忆细节会丢掉很多关键判断；做完就花 20 分钟记下“背景、卡点、你的做法、结果与反思”，日积月累就是最硬的个人履历。",
+      "en": "Details fade fast—spending 20 minutes right after finishing a project to record problem, approach, trade-offs, and outcome builds real proof over time."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我刚结束或阶段性完成了一件事：[简述项目、你的角色与结果]。请帮我套用“背景 → 卡点 → 做法与取舍 → 结果与复盘”四段式，整理成一份清晰的个人案例记录。",
+        "帮我设计一套极简的“项目结项 20 分钟复盘模板”，让我以后每次做完重要任务都能顺手留档。"
+      ],
+      "en": [
+        "I just wrapped up [Project or Milestone]: [Brief Context, My Role & Outcome]. Structure a clean case note covering context, bottleneck, approach/trade-offs, and result.",
+        "Design a lightweight 20-minute project wrap-up template so I capture real examples while details are still fresh."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Case-Study-Driven Portfolios",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "真实问题拆解与取舍过程，往往比干巴巴的头衔和技能词更有说服力",
+          "en": "Real problem framing and trade-offs speak louder than job titles or buzzword lists"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-asking-for-timely-feedback",
+    "arena": "career",
+    "lenses": [
+      "invisible-friction",
+      "role-inversion"
+    ],
+    "tags": [
+      "feedback",
+      "growth",
+      "iteration",
+      "collaboration",
+      "早期反馈",
+      "少返工"
+    ],
+    "title": {
+      "zh": "在“粗糙草稿阶段”就要反馈，而不是等打磨到完美才拿出来",
+      "en": "Asking for Feedback on Rough Drafts Before Over-Polishing"
+    },
+    "old_assumption": {
+      "zh": "东西做得够完整、够体面了再给人看，拿半成品出来显得不成熟。",
+      "en": "Share work only after it looks polished and complete—showing a rough draft feels premature."
+    },
+    "new_shift": {
+      "zh": "方向偏了时，早期粗稿改起来几乎不疼；等全部做完再改，往往整块推倒重来。越早拿模糊草稿对准方向，越少走冤枉路。",
+      "en": "Early rough drafts are cheap to steer; late-stage revisions often mean throwing away finished work—checking direction early saves big rework."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我刚搭了一个 [方案/草稿/原型/思路] 的雏形：[简述雏形与想确认的点]。请帮我写一段简短话术，向 [合作方/同事/同行] 请教“方向和结构有没有跑偏”，而不是扣字眼。",
+        "在 [你的日常工作或创作流程] 中，哪一步最适合提前 30% 拿出来做一次快速对齐？"
+      ],
+      "en": [
+        "I have a rough early draft of [Plan, Doc, or Prototype]: [Brief Summary & What I Want Checked]. Write a short note asking for direction/structure feedback rather than minor polish.",
+        "In [Your Work or Creative Process], where would a 30%-done check-in catch misalignment before heavy effort goes in?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Early Draft Alignment & Shape Up",
+        "url": "https://basecamp.com/shapeup",
+        "note": {
+          "zh": "在低成本阶段对齐方向与边界，能显著减少后期大规模返工",
+          "en": "Aligning on direction early while changes are cheap prevents heavy rework later"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-protecting-deep-focus-blocks",
+    "arena": "career",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "deep-work",
+      "focus",
+      "context-switching",
+      "craft",
+      "深度专注",
+      "防打断"
+    ],
+    "title": {
+      "zh": "把碎片时间留给琐事，给难啃的硬活留整块安静时间",
+      "en": "Matching Deep Work to Unbroken Blocks and Chores to Fragments"
+    },
+    "old_assumption": {
+      "zh": "只要有空档就随时插空做复杂任务，零碎时间也能把硬活一点点拼完。",
+      "en": "Any free 15-minute gap is enough to chip away at complex thinking or creative tasks."
+    },
+    "new_shift": {
+      "zh": "复杂思考需要进入状态和上下文加载，频繁被打断会让脑子一直处于“重启加载”中；把整块时间留给硬活，零碎时间处理回消息、整理和收尾。",
+      "en": "Deep work requires loading context and staying unbroken—reserving uninterrupted blocks for hard problems and using gaps for quick chores cuts switching cost."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我这周需要推进的硬活是：[填核心任务]，日常琐碎事务包括：[填零碎事务]。请帮我设计一种简单的日程安排方式，把整块时间留给核心任务。",
+        "当我在做深度工作时，最容易被哪 2 种外部或内部干扰打断？给出简单可行的隔离办法。"
+      ],
+      "en": [
+        "This week I need deep progress on [Hard Task] alongside smaller chores like [Small Chores]. Sketch a simple way to protect uninterrupted blocks for the hard work.",
+        "What 2 interruptions pull me out of focus most often, and what low-friction rule helps keep those blocks intact?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Context-Switching Cost & Deep Work",
+        "url": "https://calnewport.com/writing/",
+        "note": {
+          "zh": "减少上下文切换、保护连续思考时间，是做出高质量产出的关键前提",
+          "en": "Reducing context switches and protecting unbroken time makes deep thinking far more effective"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-building-a-personal-error-log",
+    "arena": "career",
+    "lenses": [
+      "first-principles",
+      "cross-domain"
+    ],
+    "tags": [
+      "error-log",
+      "debugging",
+      "learning",
+      "craft",
+      "错题本",
+      "复盘库"
+    ],
+    "title": {
+      "zh": "建一份“个人踩坑与误判账本”，让同一类坑只踩一次",
+      "en": "Keeping a Personal Mistake & Misjudgment Ledger So You Pay Once"
+    },
+    "old_assumption": {
+      "zh": "犯错或判断失误后尽快翻篇、别老盯着不愉快的事看，下次自然会记住。",
+      "en": "After a mistake or bad call, move on quickly and don't dwell on it—you'll remember next time."
+    },
+    "new_shift": {
+      "zh": "记性靠不住，相似的坑换个马甲还会再来；花 3 分钟记下“当时为什么这么判 + 信号是什么 + 下次前置检查点”，每次犯错都在升级你的过滤网。",
+      "en": "Memory fades when similar traps return in disguise—logging why a call went wrong and one pre-check turns mistakes into durable filters."
+    },
+    "seed_prompts": {
+      "zh": [
+        "回想我过去半年在 [工作/项目/决策/表达] 中踩过的 3 个印象最深的坑：[简述 3 次经历]。帮我提炼出每一种坑的“早期预警信号”和一条“下次开工前自检问题”。",
+        "帮我设计一份 3 分钟就能填完的“个人误判/踩坑记录模板”，重点留住教训而不是自我责备。"
+      ],
+      "en": [
+        "Looking back at 3 costly mistakes or misjudgments in [Work, Projects, Decisions, or Comms]: [Briefly Describe 3 Cases]. Extract an early warning sign and one pre-action check for each.",
+        "Design a 3-minute mistake log focused on learning and prevention rather than self-blame."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Engineering Postmortems & Decision Journals",
+        "url": "https://fs.blog",
+        "note": {
+          "zh": "把失误写成冷静的因果与预防清单，能把一次性代价变成长期护栏",
+          "en": "Turning setbacks into calm causal notes and check rules converts one-off costs into lasting guardrails"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]

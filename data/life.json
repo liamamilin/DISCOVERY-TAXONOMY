@@ -145,5 +145,690 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-active-lifestyle-design",
+    "arena": "life",
+    "lenses": [
+      "role-inversion",
+      "cross-domain"
+    ],
+    "tags": [
+      "lifestyle-design",
+      "geographical-arbitrage",
+      "autonomy",
+      "生活设计",
+      "主动选择"
+    ],
+    "title": {
+      "zh": "从“被动适应生活脚本”反转为“按核心诉求定制生活”",
+      "en": "Designing Life Around Your Real Constraints Instead of Default Scripts"
+    },
+    "old_assumption": {
+      "zh": "上学、工作、买房、结婚、攒钱到退休是一条默认轨道，只能顺着往前走。",
+      "en": "Life follows a single default script—school, job, milestones, retirement—and you just adapt to it."
+    },
+    "new_shift": {
+      "zh": "远程协作与数字工具让地域、节奏和收入来源有了更多组合空间；先想清楚自己真正看重什么、讨厌什么，再反推适合自己的生活结构。",
+      "en": "Remote work and digital tools expand how you combine location, schedule, and income—start from what you genuinely value and dislike, then shape the structure around it."
+    },
+    "seed_prompts": {
+      "zh": [
+        "帮我做一次“生活脚本盘点”：列出 3 件我目前顺理成章在做的事，看看哪些是真正符合我价值观的，哪些只是惯性或外界期待。",
+        "如果让我拥有一定程度的时间与地点自由，结合 [你的核心收入/技能方向]，设计 2 种完全不同但可行的理想生活原型。"
+      ],
+      "en": [
+        "Run a 'default script check' on 3 things I currently do out of habit: which ones truly fit what I care about vs. inherited expectations?",
+        "Given [Your Skill/Income Direction], sketch 2 realistic lifestyle designs that prioritize autonomy over default conventions."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Lifestyle Design & Slow Living",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "把生活当作可调整的系统来设计，而不是不可更改的既定命运",
+          "en": "Treating daily life as an adaptable design system rather than a fixed script"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-personal-knowledge-decay-pruning",
+    "arena": "life",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "declutter",
+      "notes",
+      "digital-hygiene",
+      "minimalism",
+      "数字断舍离",
+      "知识修剪"
+    ],
+    "title": {
+      "zh": "定期“修剪和归档”数字与物理杂物，而不是无休止囤积",
+      "en": "Pruning and Archiving Digital & Physical Clutter Instead of Hoarding"
+    },
+    "old_assumption": {
+      "zh": "收藏夹、笔记、网盘和房间里的东西留着总有一天用得上，删掉或丢掉就是浪费。",
+      "en": "Bookmarks, notes, files, and physical items might come in handy someday—tossing or archiving them feels wasteful."
+    },
+    "new_shift": {
+      "zh": "囤积本身是有维护成本和心理噪音的；定期做“极简归档与清理”，让眼前只留下真正活跃、能产生动作的东西，清爽感会立竿见影。",
+      "en": "Hoarding carries hidden cognitive and maintenance tax—periodic pruning and archiving clears mental clutter so active items stand out."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我的 [收藏夹/笔记库/桌面/衣柜] 已经堆积了不少东西但很少回头看。帮我设计一套 20 分钟就能完成的“保留 / 归档 / 清理”三分法规则，帮我快速瘦身。",
+        "针对我总舍不得删掉的 [某类数字或实体物品]，帮我写 3 个犀利的问题，帮我判断它到底是“宝藏”还是“心理安慰剂”。"
+      ],
+      "en": [
+        "My [Bookmarks/Notes/Desktop/Closet] has piled up with things I rarely revisit. Give me a 20-minute 'Keep / Archive / Drop' rule to declutter fast.",
+        "For [Digital or Physical Items I Hesitate to Discard], give me 3 sharp questions to tell real future utility from sentimental hoarding."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Digital Minimalism (Cal Newport)",
+        "url": "https://calnewport.com/writing/#digital-minimalism",
+        "note": {
+          "zh": "数字极简主义：有意识地减少噪音，只保留高价值的工具与连接",
+          "en": "Digital minimalism: intentionally reducing low-value noise to keep what truly matters"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-physical-reset-rituals",
+    "arena": "life",
+    "lenses": [
+      "cross-domain",
+      "invisible-friction"
+    ],
+    "tags": [
+      "recovery",
+      "sleep",
+      "movement",
+      "reset",
+      "身心重启",
+      "状态切换"
+    ],
+    "title": {
+      "zh": "用“身体状态切换”打断脑力死循环，而不是靠硬扛",
+      "en": "Resetting Mental Loops Through Physical State Shifts"
+    },
+    "old_assumption": {
+      "zh": "脑子卡住或情绪紧绷时，应该继续坐在屏幕前盯着想通为止。",
+      "en": "When stuck or tense mentally, stay at the screen and push through until it clicks."
+    },
+    "new_shift": {
+      "zh": "久坐、缺光和浅呼吸会让大脑维持在低效紧绷态；一次 10 分钟的快走、晒太阳、拉伸或冷水洗脸，往往比硬盯屏幕 1 小时更能打破死循环。",
+      "en": "Sitting still and shallow breathing keep the brain locked in a tense loop—a 10-minute walk, daylight, stretching, or cool water often breaks the stall faster than staring at a screen."
+    },
+    "seed_prompts": {
+      "zh": [
+        "当我连续盯着电脑/手机太久、脑子发僵或焦躁时，请帮我设计一套“5～10 分钟室内外微重启清单”，分出适合白天和睡前的不同版本。",
+        "如何把 [你喜欢的简单身体活动，如散步/拉伸/力量训练/做饭] 变成工作与休息之间自然的“状态切换仪式”，让我不再把工作情绪带进休息时间？"
+      ],
+      "en": [
+        "When I've been staring at screens too long and feel stiff or mentally jammed, give me a 5–10 minute physical reset menu with daytime and evening options.",
+        "How can I turn [Simple Physical Activity, e.g., walking/stretching/cooking] into a clean transition ritual between work and off-duty time?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Huberman Lab — Physiological Sighs & Sunlight",
+        "url": "https://www.hubermanlab.com",
+        "note": {
+          "zh": "通过呼吸节奏、光照与身体运动调节自主神经状态，是成本最低的身心调节手段",
+          "en": "Using breath cadence, light exposure, and movement to shift physiological state quickly"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-low-friction-joy-menu",
+    "arena": "life",
+    "lenses": [
+      "invisible-friction",
+      "role-inversion"
+    ],
+    "tags": [
+      "joy",
+      "rest",
+      "burnout",
+      "recovery",
+      "快乐清单",
+      "深度休息"
+    ],
+    "title": {
+      "zh": "备一份“低门槛恢复清单”，别等耗尽才想起来充电",
+      "en": "Keeping a Low-Friction Recovery Menu Before Burnout Hits"
+    },
+    "old_assumption": {
+      "zh": "休息就是躺着刷短视频，或者等假期攒够了再一次性大放松。",
+      "en": "Rest means zoning out on short feeds or waiting for a big vacation to finally recharge."
+    },
+    "new_shift": {
+      "zh": "高消耗刷屏往往越刷越空，而提前准备好的“15 分钟低门槛恢复动作”（散步、听一张专辑、做顿简单饭、见一位老友）能在疲惫早期就把电量拉回来。",
+      "en": "Endless scrolling often leaves you emptier; a pre-made menu of 15-minute low-friction restores (a walk, music, cooking, real chat) recharges you before you hit zero."
+    },
+    "seed_prompts": {
+      "zh": [
+        "帮我建一份分档的“个人恢复菜单”：15 分钟快充档、半天放松档、周末深度充电档，要求尽量不依赖高刺激屏幕刷屏且门槛低。",
+        "当我发现自己开始烦躁、拖延、对什么都提不起劲时，帮我写 3 个“立刻能做的微小止损动作”，帮我及时踩刹车。"
+      ],
+      "en": [
+        "Build a tiered personal recovery menu—15-minute quick resets, half-day unwinds, and weekend recharges—low-friction and light on mind-numbing feeds.",
+        "When I notice early signs of irritability, dread, or numbness, give me 3 tiny 'circuit-breaker' actions to pause and recover early."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Active vs. Passive Rest",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "区分真正恢复精力的活动与只是麻木消磨时间的习惯，是可持续创造力的关键",
+          "en": "Distinguishing genuine restoration from numbing habits sustains long-term energy"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-frictionless-capture-and-review",
+    "arena": "life",
+    "lenses": [
+      "cost-collapse",
+      "first-principles"
+    ],
+    "tags": [
+      "capture",
+      "weekly-review",
+      "simplicity",
+      "memory",
+      "随手捕捉",
+      "轻量复盘"
+    ],
+    "title": {
+      "zh": "“极简随手记 + 每周 15 分钟复盘”，赢过复杂的完美系统",
+      "en": "Simple Capture + 15-Minute Weekly Review Beats Complex Systems"
+    },
+    "old_assumption": {
+      "zh": "要管理好自己，必须先搭一套精巧复杂的多维看板、标签体系和每日长篇复盘。",
+      "en": "Managing life well requires building an intricate system of dashboards, nested tags, and long daily journals."
+    },
+    "new_shift": {
+      "zh": "系统越复杂，坚持成本越高，越容易在忙乱时断掉；只留一个随时能记的入口 + 每周 15 分钟扫一眼，反而能长期跑下去。",
+      "en": "Over-engineered systems collapse the moment life gets busy—one effortless capture inbox plus a 15-minute weekly scan actually survives over years."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我以前搭过复杂系统但总坚持不下来。请帮我设计一套“不超过 3 个动作、每周只需 15 分钟”的极简个人捕捉与复盘流程。",
+        "帮我写一份每周五或周日 15 分钟就能走完的“轻复盘 4 问”，只看真正重要的进展、卡点和下周 1～2 件要事。"
+      ],
+      "en": [
+        "Complex systems always fizzle out for me. Design a dead-simple capture and review habit taking 3 tiny steps and 15 minutes a week.",
+        "Write a 4-question, 15-minute weekly review focused only on real wins, bottlenecks, and 1–2 priorities for next week."
+      ]
+    },
+    "signals": [
+      {
+        "name": "GTD Capture & Lightweight Weekly Review",
+        "url": "https://gettingthingsdone.com",
+        "note": {
+          "zh": "把脑子里的杂念清出来集中处理，核心在于“低捕捉摩擦”与“周期性清空”",
+          "en": "Externalizing loose ends works best when capture is effortless and reviews stay lightweight"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-protecting-morning-or-peak-window",
+    "arena": "life",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "boundaries",
+      "deep-work",
+      "morning",
+      "attention",
+      "保护黄金时段",
+      "注意力边界"
+    ],
+    "title": {
+      "zh": "守住每天第一块黄金时段，别一醒来就被别人的消息接管",
+      "en": "Guarding Your First High-Focus Block Before Other People's Messages"
+    },
+    "old_assumption": {
+      "zh": "早上醒来第一件事就该看手机、回消息、刷资讯，不然怕漏掉重要事。",
+      "en": "Checking messages and feeds first thing in the morning is normal so you don't miss anything urgent."
+    },
+    "new_shift": {
+      "zh": "一旦早起第一眼就陷入他人需求和信息流，整天的注意力主权就交出去了；哪怕先留出 30～60 分钟做一件自己的事，全天掌控感都会不一样。",
+      "en": "Opening feeds and messages first hands your attention wheel to others right away—protecting even 30–60 minutes for your own priority shifts the whole day."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我每天早上容易一睁眼就看手机/回消息，导致真正想做的事被挤掉。请帮我设计一套“温和、不制造焦虑”的晨间前 45 分钟安排。",
+        "针对 [你的日常作息，如早起党/夜猫子/轮班作息]，帮我划出每天最值得保护的一段“免打扰黄金时间”，并写出对应的防打扰小规则。"
+      ],
+      "en": [
+        "I often check messages and feeds right away in the morning and lose my own priority block. Design a calm, realistic first-45-minute routine.",
+        "Given my schedule—[Describe Routine]—help me protect one daily focus block and set simple boundary rules so it actually sticks."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Deep Work & Attention Boundaries (Cal Newport)",
+        "url": "https://calnewport.com/writing/",
+        "note": {
+          "zh": "有意识地为深度思考划出边界，是现代生活里维持创造力与自主感的基础",
+          "en": "Intentional boundaries around focus blocks help preserve clarity and autonomy in connected life"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-saying-no-with-default-criteria",
+    "arena": "life",
+    "lenses": [
+      "role-inversion",
+      "first-principles"
+    ],
+    "tags": [
+      "boundaries",
+      "saying-no",
+      "priorities",
+      "time",
+      "课题分离",
+      "学会拒绝"
+    ],
+    "title": {
+      "zh": "用“预设筛选标准”来拒绝，而不是每次临时纠结人情",
+      "en": "Using Pre-Set Criteria to Say No Without Guilt"
+    },
+    "old_assumption": {
+      "zh": "每次有人找帮忙、约饭或塞任务，都要现场纠结半天“拒绝会不会伤感情”。",
+      "en": "Every request or invite requires agonizing on the spot over whether saying no will upset someone."
+    },
+    "new_shift": {
+      "zh": "现场临时决定最容易心软答应、事后后悔；提前定好“忙什么 / 什么情况下接 / 什么情况下婉拒”，拒绝就成了顺理成章的规则而不是针对某个人。",
+      "en": "Deciding ad hoc invites people-pleasing and later regret—pre-set criteria turn 'no' into a clear priority rule rather than a personal rejection."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我经常在 [帮人忙/接临时任务/社交邀约] 上不好意思拒绝，最后把自己累垮。请帮我写 3 套不同语气（温和礼貌/真诚坦率/明确边界）的婉拒模板。",
+        "帮我定一套“个人精力红绿灯规则”：什么情况绿灯答应、黄灯延后、红灯直接婉拒。"
+      ],
+      "en": [
+        "I often struggle to say no to [Favors/Last-Minute Tasks/Invites] and end up stretched thin. Write 3 natural ways to decline (warm, direct, firm) without over-apologizing.",
+        "Help me create a simple green/yellow/red rule for incoming requests based on my current bandwidth and priorities."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Essentialism — Disciplined Pursuit of Less (Greg McKeown)",
+        "url": "https://gregmckeown.com/books/essentialism/",
+        "note": {
+          "zh": "把精力集中到少数真正重要的事上，前提是拥有清晰且不内耗的拒绝机制",
+          "en": "Focusing on what truly matters depends on clear, low-guilt boundaries around everything else"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-frictionless-evening-wind-down",
+    "arena": "life",
+    "lenses": [
+      "invisible-friction",
+      "first-principles"
+    ],
+    "tags": [
+      "sleep",
+      "wind-down",
+      "evening",
+      "recovery",
+      "睡前收尾",
+      "睡眠节律"
+    ],
+    "title": {
+      "zh": "设一个“睡前 30 分钟关机缓冲”，别把白天刺激直接带进床上",
+      "en": "Creating a 30-Minute Evening Wind-Down Before Sleep"
+    },
+    "old_assumption": {
+      "zh": "困了往床上一躺就能立刻睡着，睡前刷手机、想工作或看刺激内容无所谓。",
+      "en": "You can fall straight asleep the moment your head hits the pillow even after late screens or work thoughts."
+    },
+    "new_shift": {
+      "zh": "大脑需要一个从“高速运转/高光刺激”降速到“放松准备入睡”的缓冲带；留出 20～30 分钟低刺激收尾，睡眠质量和第二天精神都会明显改善。",
+      "en": "The brain needs a ramp-down from high stimulation and work loops—a 20–30 minute low-key wind-down improves sleep quality and next-day clarity."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我晚上经常因为 [刷手机/脑子还转着工作或杂事] 导致睡不沉或晚睡。请帮我设计一套 25 分钟以内的“睡前降噪收尾流程”，简单、可坚持。",
+        "帮我写一份“睡前脑内清空清单（Brain Dump）”的 3 个小问题，把明天要做的事记下来，让自己安心放下。"
+      ],
+      "en": [
+        "My evenings often get derailed by [Late Scrolling or Racing Thoughts], hurting sleep. Design a calm, realistic 25-minute wind-down routine.",
+        "Give me 3 quick 'brain-dump' questions before bed to capture tomorrow's loose ends so I can mentally clock out."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Why We Sleep & Wind-Down Hygiene",
+        "url": "https://www.hubermanlab.com",
+        "note": {
+          "zh": "降低晚间光线与信息刺激、给大脑留出缓冲时间，是改善睡眠最稳妥的基础动作",
+          "en": "Dimming evening light and mental stimulation gives the nervous system room to settle for sleep"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-annual-or-quarterly-theme-over-rigid-resolutions",
+    "arena": "life",
+    "lenses": [
+      "role-inversion",
+      "cost-collapse"
+    ],
+    "tags": [
+      "themes",
+      "goals",
+      "planning",
+      "reflection",
+      "年度主题",
+      "弹性目标"
+    ],
+    "title": {
+      "zh": "用“阶段主题词”替代死板的 Flag，允许计划随现实长出新样子",
+      "en": "Using Seasonal Themes Instead of Rigid Resolutions"
+    },
+    "old_assumption": {
+      "zh": "定目标就要列一长串具体 KPI 和死板打卡表，没全完成就是失败。",
+      "en": "Good planning means a rigid checklist of targets—missing items feels like falling behind."
+    },
+    "new_shift": {
+      "zh": "现实变化很快，死板的 KPI 容易让人中途放弃；一个清晰的阶段“主题词”（比如“精简与沉淀 / 轻装试错 / 专注交付”）既能指明方向，又留有调整空间。",
+      "en": "Rigid resolutions break when life shifts—a clear seasonal theme (like 'simplify & ship' or 'low-stakes experiments') guides choices while staying adaptable."
+    },
+    "seed_prompts": {
+      "zh": [
+        "结合我接下来 [3 个月 / 半年 / 一年] 的生活与工作重点：[简述现状与期望]。请帮我提炼 2 个贴切的“阶段主题词”，并说明在日常做选择时怎么用它做判断。",
+        "帮我把一份原本有点死板、让人有压力的计划：[简述计划]，改造成更有弹性、聚焦核心方向的阶段主题与 2～3 个关键里程碑。"
+      ],
+      "en": [
+        "Based on my next [Quarter, Half-Year, or Year]—[Briefly Describe Context & Hopes]—propose 2 meaningful themes and show how to use them as everyday decision filters.",
+        "Reframe this rigid checklist—[Describe Plan]—into an adaptable seasonal theme with 2–3 high-signal milestones."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Yearly / Seasonal Themes (CGP Grey / Ness Labs)",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "以方向与主题引导行动，比死守僵化清单更容易在变化中保持推进",
+          "en": "Directional themes guide daily trade-offs without the brittle all-or-nothing trap of rigid checklists"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-making-healthy-defaults-easier",
+    "arena": "life",
+    "lenses": [
+      "invisible-friction",
+      "cost-collapse"
+    ],
+    "tags": [
+      "health",
+      "routines",
+      "simplicity",
+      "habits",
+      "健康默认项",
+      "低门槛"
+    ],
+    "title": {
+      "zh": "把健康习惯做成“顺手就能做 5 分钟”的小动作，而不是高难度打卡",
+      "en": "Making Healthy Habits a 5-Minute Default Instead of an All-or-Nothing Streak"
+    },
+    "old_assumption": {
+      "zh": "运动、拉伸、喝水或早起要么一次练足一小时、严格执行，要么干脆算今天没练。",
+      "en": "Fitness, mobility, or healthy routines count only if done in full sessions—otherwise it feels like skipping altogether."
+    },
+    "new_shift": {
+      "zh": "忙乱或疲惫时，高门槛计划最容易断掉；把“5 分钟活动/伸展/出门走走”设成底线，既保住节奏又不会因为偶尔偷懒而全盘放弃。",
+      "en": "Ambitious routines break on busy days—setting a 5-minute baseline (a quick stretch, walk, or mobility break) keeps momentum alive without all-or-nothing guilt."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我平时久坐或作息容易乱，想把 [某项健康习惯，如活动肩颈/快走/规律作息] 变成轻松的日常默认项。请帮我设计一个“忙时 5 分钟保底版 + 闲时正常版”。",
+        "针对我最容易偷懒或中断的时段：[填时段]，设计 2 个几乎不需要换衣服或额外准备的微动作。"
+      ],
+      "en": [
+        "I sit a lot or get pulled off track and want [Health Habit, e.g., stretching/walking/consistent sleep] to feel effortless. Give me a 5-minute minimum floor and a normal-day version.",
+        "For [Time of Day When Routines Slip], suggest 2 low-prep physical habits that require zero gear or hassle."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Minimum Viable Habits",
+        "url": "https://jamesclear.com",
+        "note": {
+          "zh": "保留极低门槛的“保底版本”，能显著降低中断后的重启阻力",
+          "en": "Keeping a tiny minimum floor makes habits far easier to sustain through busy stretches"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-curating-high-trust-social-circle",
+    "arena": "life",
+    "lenses": [
+      "role-inversion",
+      "invisible-friction"
+    ],
+    "tags": [
+      "relationships",
+      "energy",
+      "boundaries",
+      "connection",
+      "高质量社交",
+      "精力圈层"
+    ],
+    "title": {
+      "zh": "把社交精力留给“聊得来、不消耗人”的少数深度连接",
+      "en": "Investing Social Energy in Low-Drain, High-Trust Connections"
+    },
+    "old_assumption": {
+      "zh": "社交圈子越大越好，逢场作戏、应酬或勉强维持关系是一种必要付出。",
+      "en": "Bigger networks are always better, and obliging draining social circles is just part of adulthood."
+    },
+    "new_shift": {
+      "zh": "个人社交带宽有限；把时间和情绪留给真正同频、相处轻松、能互相滋养的少数人，比维系十个客套关系更有获得感。",
+      "en": "Social bandwidth is finite—investing in a few energizing, low-friction relationships beats maintaining a crowd that leaves you drained."
+    },
+    "seed_prompts": {
+      "zh": [
+        "帮我梳理一下我目前的日常社交与互动：[简述现状]，看看哪些互动真正让我觉得轻松、有启发，哪些更多是习惯性消耗。",
+        "如果我想和一位很久没联系但很投缘的朋友恢复轻量联系，帮我写 2 条自然、没有压力的破冰消息。"
+      ],
+      "en": [
+        "Help me reflect on my current social energy—[Brief Context]: which interactions leave me recharged vs. drained out of habit?",
+        "Draft 2 warm, low-pressure messages to reconnect with a friend I haven't spoken to in a while."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Dunbar Layers & Intentional Connection",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "有意识地把精力倾斜给核心连接，能提升日常情绪质量与安全感",
+          "en": "Prioritizing deep, low-friction ties supports emotional steadiness and genuine connection"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-simplifying-when-overwhelmed",
+    "arena": "life",
+    "lenses": [
+      "first-principles",
+      "cost-collapse"
+    ],
+    "tags": [
+      "overwhelm",
+      "simplification",
+      "priorities",
+      "calm",
+      "过载降维",
+      "做减法"
+    ],
+    "title": {
+      "zh": "一团乱麻时先做“减法”，砍掉 70% 暂时不致命的事",
+      "en": "Subtracting 70% of Non-Urgent Load When Feeling Overwhelmed"
+    },
+    "old_assumption": {
+      "zh": "事情堆得越多、越乱，越要咬牙把所有清单都排满、一起扛下来。",
+      "en": "When everything piles up and feels overwhelming, push harder and pack more onto the list to catch up."
+    },
+    "new_shift": {
+      "zh": "过载时硬扛只会越做越乱；先挑出今天真正必须推进的 1～2 件事，其余延后、砍掉或暂放，大脑立刻就能喘口气并重新动起来。",
+      "en": "Pushing harder under overload often stalls momentum—picking 1–2 things that truly matter today and parking the rest restores clarity and traction."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我现在手头事情很多、有点乱或有点累：[列出你目前担心的 3-5 件事]。请帮我做一次“减法梳理”：挑出今天最值得先做的一件小事，其余先排出优先级或延后。",
+        "当我感觉负荷拉满、什么都不想动时，帮我写一段简短的“降维重启步骤”，帮我先稳住节奏。"
+      ],
+      "en": [
+        "I have a lot on my plate and feel stretched or scattered: [List 3–5 Things]. Help me subtract—pick 1 small priority to move today and sequence or defer the rest.",
+        "When overload makes everything feel heavy, give me a calm step-by-step reset to regain footing without guilt."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Essentialism — Doing Less, Better",
+        "url": "https://gregmckeown.com/books/essentialism/",
+        "note": {
+          "zh": "在精力紧绷时主动做减法、聚焦少数关键点，往往比硬撑更能恢复推进感",
+          "en": "Deliberately subtracting non-essentials restores focus and forward motion when stretched thin"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-leaving-room-for-unscheduled-slack",
+    "arena": "life",
+    "lenses": [
+      "role-inversion",
+      "invisible-friction"
+    ],
+    "tags": [
+      "slack",
+      "buffer",
+      "pace",
+      "wellbeing",
+      "留白缓冲",
+      "生活节奏"
+    ],
+    "title": {
+      "zh": "日程里故意留出“缓冲留白”，别把每一分钟都排死",
+      "en": "Leaving Buffer Slack in Your Schedule Instead of Packing Every Slot"
+    },
+    "old_assumption": {
+      "zh": "把时间表排得满满当当才算充实、高效，留白等于浪费时间。",
+      "en": "Packing every hour back-to-back means high productivity; unscheduled gaps feel like wasted time."
+    },
+    "new_shift": {
+      "zh": "现实总会有突发状况和状态起伏；没有留白的日程一旦延迟就会全线崩盘，留出一点缓冲空间，反而能从容应对变化、保持长期节奏。",
+      "en": "Real life has delays and energy swings—back-to-back schedules domino into stress, while intentional buffer slack keeps your pace steady and adaptable."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我平时容易把日程或待办排得太满，一有突发事就打乱节奏：[简述你的日常安排]。请帮我设计一种“留出缓冲白”的排程方式。",
+        "在 [你的工作或生活节奏] 中，怎么自然地给突发情况或状态调整留出一点弹性空间？"
+      ],
+      "en": [
+        "I tend to pack schedules tightly and get thrown off when unexpected things pop up: [Brief Routine]. Suggest a practical way to build buffer slack into my week.",
+        "In [Your Work or Life Rhythm], how can I leave healthy margin for surprises and energy shifts without feeling behind?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Slack & Margin in Sustainable Systems",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "适当的留白与缓冲能吸收日常摩擦，让长期节奏更稳健、不易透支",
+          "en": "Intentional margin absorbs everyday friction and keeps long-term pace sustainable"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-designing-for-default-boredom-over-dopamine",
+    "arena": "life",
+    "lenses": [
+      "role-inversion",
+      "first-principles"
+    ],
+    "tags": [
+      "boredom",
+      "dopamine",
+      "attention",
+      "reset",
+      "允许无聊",
+      "刺激脱敏"
+    ],
+    "title": {
+      "zh": "允许自己偶尔“无聊发呆”，别用高刺激内容填满每一秒缝隙",
+      "en": "Allowing Quiet Boredom Instead of Patching Every Gap with High Stimulation"
+    },
+    "old_assumption": {
+      "zh": "排队、等车、睡前或放空时没事干就是无聊，赶紧掏出手机刷点东西才充实。",
+      "en": "Unoccupied moments in lines, commutes, or downtime feel like wasted time—grabbing a feed fills the gap."
+    },
+    "new_shift": {
+      "zh": "持续高刺激会让大脑对日常麻木、灵感也难以冒头；留出几分钟不带输入的发呆或散步，常是好想法和松弛感的起点。",
+      "en": "Constant high-stimulation feeds dull baseline enjoyment and crowd out mind-wandering—quiet, input-free minutes often spark real ideas and calm."
+    },
+    "seed_prompts": {
+      "zh": [
+        "盘点我每天有哪些“本来可以轻松放空几分钟”的碎片空档（如等电梯/通勤/睡前/休息间隙），却习惯性拿手机填满：[简述你的习惯]。帮我设计 3 个不带屏幕输入的轻替代。",
+        "如果我每天刻意留出 10 分钟“零信息输入”的安静时段，怎么安排才最自然、最不容易变成新的打卡负担？"
+      ],
+      "en": [
+        "Spot 3 everyday gaps (waiting, commuting, breaks) where I reflexively reach for a screen instead of letting my mind rest: [Brief Context]. Suggest low-friction, input-free alternatives.",
+        "How can I carve out 10 quiet, input-free minutes a day naturally without turning it into another rigid chore?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Mind-Wandering & Default Mode Network (Ness Labs)",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "适度的无输入留白有助于大脑整合信息与产生创造性联结",
+          "en": "Unstructured, low-input downtime supports reflection, calm, and creative connections"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]

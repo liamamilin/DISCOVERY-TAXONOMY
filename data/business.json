@@ -153,5 +153,691 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-open-source-funnel",
+    "arena": "business",
+    "lenses": [
+      "role-inversion",
+      "cross-domain"
+    ],
+    "tags": [
+      "open-source",
+      "distribution",
+      "trust",
+      "monetization",
+      "开源获客",
+      "信任资产"
+    ],
+    "title": {
+      "zh": "用免费开源/公开工具做“信任漏斗”而非直接卖代码",
+      "en": "Using Free Open Assets as a Trust Funnel Instead of Selling Code"
+    },
+    "old_assumption": {
+      "zh": "写了有用的工具或体系就该藏起来收钱，免费公开等于白白送人、没法变现。",
+      "en": "If you build something useful, keep it proprietary and gated—giving it away for free leaves money on the table."
+    },
+    "new_shift": {
+      "zh": "在软件同质化极高的当下，公开免费工具/知识库是最强的“免许可信任证明”，能把陌生流量自然引向高客单托管、定制服务或进阶工作流。",
+      "en": "When code is abundant, free open tools and libraries act as permissionless proof of competence—converting organic attention into hosted SaaS, services, or pro workflows."
+    },
+    "seed_prompts": {
+      "zh": [
+        "如果我想在 [你的目标领域] 做一个免费开源的小工具或公开知识库来建立行业信任，设计 3 个“免费层足够好用、付费层省掉麻烦或交付结果”的商业衔接路径。",
+        "分析 [某个知名的免费开源/免费工具项目]，拆解它是如何把零散开发者/用户转化为稳定付费客户的，并映射到 [你的场景]。"
+      ],
+      "en": [
+        "If I launch a free open-source tool or public library in [Target Domain] to build trust, design 3 ways to bridge free users into paid hosted versions, done-for-you workflows, or pro tiers.",
+        "Deconstruct how [Notable Free/Open Tool] converts free users into paying customers, and map that funnel onto [Your Domain]."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Cal.com",
+        "url": "https://cal.com",
+        "note": {
+          "zh": "开源日程工具切入市场，通过云托管与企业版实现高增长变现",
+          "en": "Open-source scheduling infrastructure monetized via cloud hosting and team editions"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-micro-paid-diagnoses",
+    "arena": "business",
+    "lenses": [
+      "invisible-friction",
+      "cost-collapse"
+    ],
+    "tags": [
+      "audit",
+      "productized-service",
+      "high-margin",
+      "b2b",
+      "付费诊断",
+      "微咨询"
+    ],
+    "title": {
+      "zh": "卖“24 小时高密度诊断报告”替代重型咨询",
+      "en": "Selling 24-Hour High-Signal Audits Over Heavy Consulting"
+    },
+    "old_assumption": {
+      "zh": "提供专业建议或方案必须拉长战线做几周的大项目、开无数次会，否则显得不够专业。",
+      "en": "Advisory work requires multi-week engagements and endless discovery calls to feel substantial."
+    },
+    "new_shift": {
+      "zh": "AI 把信息收集与初稿梳理压缩到几分钟后，结合个人经验快速指出“哪 3 个卡点正在烧钱/拖慢效率”的固定价格快审，决策门槛极低、利润率极高。",
+      "en": "With AI speeding up research and synthesis, a fixed-price, fast-turnaround audit pinpointing the top 3 leaks or bottlenecks has low buyer friction and high margins."
+    },
+    "seed_prompts": {
+      "zh": [
+        "结合 [你的专业背景/经验]，设计一款“定价明确、48 小时内交付、聚焦解决 1 个痛点”的微诊断服务（如落地页转化诊断/AI 工作流体检/简历与定位诊断），写出交付物清单。",
+        "在 [某垂直人群，如独立开发者/小商家/求职者] 决策花钱前，他们最害怕“花了大钱却没用”；如何用“低价快审 + 抵扣后续合作”降低首单顾虑？"
+      ],
+      "en": [
+        "Using [Your Expertise], design a fixed-price, 48-hour diagnostic audit targeting one sharp pain point (e.g., funnel teardown, AI workflow audit, positioning review) with concrete deliverables.",
+        "How can a fast, low-friction diagnostic audit reduce buyer risk for [Target Audience] and naturally lead to deeper work if they want help executing?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Landing Page / Conversion Teardowns",
+        "url": "https://www.producthunt.com",
+        "note": {
+          "zh": "独立创作者高频验证的固定价格产品化审计模式",
+          "en": "Widely validated fixed-scope audit format used by solo founders and specialists"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-workflow-replacement-wedge",
+    "arena": "business",
+    "lenses": [
+      "role-inversion",
+      "invisible-friction"
+    ],
+    "tags": [
+      "wedge",
+      "vertical-ai",
+      "b2b",
+      "retention",
+      "切入楔子",
+      "垂直变现"
+    ],
+    "title": {
+      "zh": "用“单点高频卡点”做楔子切入慢热行业",
+      "en": "Using a Single High-Friction Wedge to Enter Slow Industries"
+    },
+    "old_assumption": {
+      "zh": "切入传统行业必须先做一整套全流程系统，否则客户觉得不完整。",
+      "en": "Entering a traditional industry requires building a full end-to-end suite before customers take you seriously."
+    },
+    "new_shift": {
+      "zh": "传统行业最抗拒推翻整套旧系统，但非常乐意先用一个小工具解决“每天最烦的那一步”；一旦卡住关键数据流，再顺理成章往上下游延伸。",
+      "en": "Slow industries resist ripping out legacy systems, but gladly adopt a sharp wedge that fixes one daily bottleneck—then expand once embedded in the data flow."
+    },
+    "seed_prompts": {
+      "zh": [
+        "挑选 [某个传统/慢热行业]，找出一个“高频、痛感强、且不涉及核心 ERP 替换”的单点切入楔子，画出“楔子工具 → 沉淀数据 → 扩展工作流”的三步演进路线。",
+        "在 [你的目标客户群体] 中，哪些环节一旦自动化就能立刻帮他们省出 3 小时/周或挽回明显损失，最适合作为冷启动的第一个收费切口？"
+      ],
+      "en": [
+        "Pick [Slow/Traditional Industry] and find a single high-pain wedge that avoids ripping out core systems, then map a 3-step wedge-to-workflow expansion path.",
+        "For [Target Buyers], which specific bottleneck saves 3+ hours/week or prevents clear loss immediately, making it the ideal paid wedge?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "The Wedge Strategy (Review / Wedge SaaS)",
+        "url": "https://www.lennysnewsletter.com",
+        "note": {
+          "zh": "经典的“楔子切入再扩展”软件增长路径",
+          "en": "Classic wedge-and-expand software go-to-market pattern"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-niche-community-distribution",
+    "arena": "business",
+    "lenses": [
+      "invisible-friction",
+      "cross-domain"
+    ],
+    "tags": [
+      "distribution",
+      "niche",
+      "community",
+      "indie-growth",
+      "小众分发",
+      "冷启动"
+    ],
+    "title": {
+      "zh": "先在“极小众垂直圈子”做深价值，而不是一开始买量铺开",
+      "en": "Winning a Tiny Niche Circle Before Chasing Broad Distribution"
+    },
+    "old_assumption": {
+      "zh": "新产品或新服务上线就要想办法冲热榜、铺全渠道，用户太少说明没市场。",
+      "en": "A launch needs broad channels and big reach right away; a tiny audience feels like a non-starter."
+    },
+    "new_shift": {
+      "zh": "在 50～200 个重度痛点用户里成为“真正帮他们省了钱/时间的人”，口碑复利和付费转化率远高于一万个路过围观者。",
+      "en": "Becoming indispensable to 50–200 acute users compounds word-of-mouth and paid conversion far better than 10,000 passive onlookers."
+    },
+    "seed_prompts": {
+      "zh": [
+        "针对 [你的产品/服务/内容方向]，帮我锁定 3 个“痛点极深、人数不多但能直接触达”的垂直小圈子，并设计第一批 10 个种子用户的真诚触达方式。",
+        "如果我只能服务好前 20 个付费用户，我会给他们提供哪些“手动高关怀 + 快速迭代”的专属体验来换取深度反馈和转介绍？"
+      ],
+      "en": [
+        "For [Your Product/Service/Topic], pinpoint 3 small, reachable communities with acute pain and design an honest outreach plan for your first 10 users.",
+        "If you only had to delight your first 20 paying users, what high-touch hands-on help and rapid tweaks would earn referrals and deep insight?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Do Things That Don't Scale (Paul Graham)",
+        "url": "http://paulgraham.com/ds.html",
+        "note": {
+          "zh": "早期靠高密度一对一服务打磨产品与口碑，是验证真实需求的经典路径",
+          "en": "Early manual, high-touch effort builds real product fit and word-of-mouth before scaling"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-recurring-maintenance-retainer",
+    "arena": "business",
+    "lenses": [
+      "invisible-friction",
+      "role-inversion"
+    ],
+    "tags": [
+      "retainer",
+      "maintenance",
+      "cashflow",
+      "ops",
+      "持续运维",
+      "现金流"
+    ],
+    "title": {
+      "zh": "卖“持续防崩与迭代托管”，而不只是“一锤子交付”",
+      "en": "Selling Ongoing Upkeep & Evolution Instead of One-Off Handoffs"
+    },
+    "old_assumption": {
+      "zh": "做外包、定制工具或方案，交付完尾款就结束了，后续维护要么免费扯皮要么没法收钱。",
+      "en": "Custom builds and advisory end at final handoff—ongoing tweaks turn into unpaid favors or awkward negotiations."
+    },
+    "new_shift": {
+      "zh": "外部接口、平台规则和业务需求都在持续变化，把“每月固定巡检 + 优先微调 + 季度升级”打包成轻量包月，能把波动的接单变成可预测现金流。",
+      "en": "APIs, platforms, and workflows keep shifting—bundling monthly checkups, priority tweaks, and steady iterations turns one-off projects into predictable cashflow."
+    },
+    "seed_prompts": {
+      "zh": [
+        "结合 [你擅长的技术/设计/运营/自动化能力]，设计一份“低压力、边界清晰”的按月维护与持续优化方案，明确包含什么、不包含什么、多久响应一次。",
+        "如何向已经合作过或刚交付完项目的客户，自然提出“后续每月轻量跟进与迭代”的合作选项而不显得推销感太强？"
+      ],
+      "en": [
+        "Using [Your Skillset], design a low-stress monthly upkeep and iteration retainer with clear boundaries on what's included, excluded, and response cadence.",
+        "How can I pitch an optional monthly maintenance and continuous-improvement plan after a project handoff without sounding pushy?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Productized Retainer Models",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "许多独立顾问与开发者靠少量高信任包月客户维持极高自由度与稳定现金流",
+          "en": "Solo operators often sustain high freedom and steady income with a handful of high-trust retainers"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-free-high-value-lead-magnet",
+    "arena": "business",
+    "lenses": [
+      "cost-collapse",
+      "role-inversion"
+    ],
+    "tags": [
+      "lead-magnet",
+      "calculator",
+      "interactive",
+      "conversion",
+      "免费工具获客",
+      "互动转化"
+    ],
+    "title": {
+      "zh": "用“能算账/能诊断的互动小工具”替代 PDF 白皮书引流",
+      "en": "Interactive Calculators & Diagnostics Over Static Lead Magnets"
+    },
+    "old_assumption": {
+      "zh": "做获客或建立专业影响力，要么靠硬广，要么写一份长篇 PDF 资料包让人下载。",
+      "en": "Attracting interested prospects means ads or gating a generic PDF guide nobody finishes reading."
+    },
+    "new_shift": {
+      "zh": "一个输入几个自家参数就能算出“省多少钱/还差哪一步/存在什么隐患”的极简互动小工具，参与感和转发率远高于静态长文。",
+      "en": "A lightweight interactive calculator or diagnostic where users plug in their own numbers creates immediate personal relevance and natural sharing."
+    },
+    "seed_prompts": {
+      "zh": [
+        "结合 [你的产品/服务/专业方向]，设计一个“用户只需填 3 个数字或选 4 道题就能拿到定制诊断结果”的极简网页小工具，给出核心公式或打分逻辑。",
+        "在 [你的目标客户群体] 中，他们最关心但算不清楚的一笔账或一个风险评估是什么？如何把它做成 1 分钟就能玩出结果的互动页面？"
+      ],
+      "en": [
+        "For [Your Product, Service, or Expertise], design a tiny interactive calculator or quiz where users enter 3 inputs and get an instant tailored readout.",
+        "What cost, savings, or risk is [Target Audience] fuzzy on—and how can I turn it into a 60-second interactive diagnostic?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Engineering-as-Marketing Calculators",
+        "url": "https://www.hubspot.com",
+        "note": {
+          "zh": "围绕真实决策算账构建的实用小工具，往往比泛泛的营销文章更有留存与转化力",
+          "en": "Practical calculators tied to real user decisions consistently outperform generic gated content"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-charging-for-speed-and-certainty",
+    "arena": "business",
+    "lenses": [
+      "invisible-friction",
+      "cost-collapse"
+    ],
+    "tags": [
+      "speed",
+      "certainty",
+      "value-pricing",
+      "time-saving",
+      "确定性溢价",
+      "省时变现"
+    ],
+    "title": {
+      "zh": "向愿意为“省时间与确定性”买单的人收溢价",
+      "en": "Monetizing Speed & Certainty When DIY Takes Too Long"
+    },
+    "old_assumption": {
+      "zh": "网上很多信息、教程和开源方案都是免费的，所以别人肯定不愿意为同类东西付钱。",
+      "en": "Since free tutorials and open-source tools exist online, people won't pay for solutions in that space."
+    },
+    "new_shift": {
+      "zh": "免费意味着“自己花时间折腾、自己排错、自己承担试错风险”；对忙碌的个人或小团队来说，花钱买现成省下的时间与确定性本身就是高价值。",
+      "en": "Free usually costs your own hours, debugging, and trial-and-error risk—busy buyers happily pay for speed, polish, and certainty."
+    },
+    "seed_prompts": {
+      "zh": [
+        "在 [你熟悉的领域] 里，虽然网上有免费教程或开源方案，但新手或忙人自己动手最容易卡在哪 3 步？如何把这 3 步打包成省心的付费方案？",
+        "对比“自己从零拼装免费工具”与“直接使用开箱即用的方案”，帮我提炼出对 [某类买家] 最有说服力的 3 个时间/风险价值点。"
+      ],
+      "en": [
+        "In [Your Domain], free guides exist—where do busy people or newcomers get stuck for hours, and how can a paid offer remove that friction?",
+        "Contrast DIY assembling free tools vs. a ready-to-run option, and craft 3 clear time-and-certainty value points for [Target Buyer]."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Done-For-You & Turnkey Indie Tools",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "开源或免费方案背后依然存在大量愿意为“省心、免配置、稳定可用”付费的用户",
+          "en": "Even alongside free/open tools, buyers consistently pay for zero-setup convenience and reliability"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-clear-offer-and-positioning",
+    "arena": "business",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "positioning",
+      "offer",
+      "clarity",
+      "value-proposition",
+      "价值主张",
+      "定位清晰"
+    ],
+    "title": {
+      "zh": "用一句话说清“帮谁解决什么具体事”，别堆砌形容词",
+      "en": "Stating Who You Help and What Changes in One Plain Sentence"
+    },
+    "old_assumption": {
+      "zh": "介绍产品或服务时，词藻越高级、覆盖面越广，听起来就越有分量。",
+      "en": "Broader claims and lofty buzzwords make a product or service sound more ambitious and credible."
+    },
+    "new_shift": {
+      "zh": "含糊其辞只会让目标用户划走；一句直白写清“目标人群 + 具体痛点/结果 + 为什么现在不同”的话，往往比十句华丽形容词更有成交力。",
+      "en": "Vague buzzwords lose distracted readers—one plain statement of who it's for, what pain or outcome changes, and why now converts far better."
+    },
+    "seed_prompts": {
+      "zh": [
+        "这是我目前对 [产品/服务/项目] 的介绍：[粘贴你的简介]。请帮我挑出其中的空话和行话，改写成 3 个不同侧重点（省时/省钱/降险）的一句话价值主张。",
+        "针对 [你的目标用户]，帮我写出“他们看到第一眼就会觉得‘这说的就是我’”的开场痛点句式。"
+      ],
+      "en": [
+        "Here is my current pitch for [Product, Service, or Project]: [Paste Pitch]. Strip out buzzwords and write 3 sharp one-sentence value propositions (time, money, or risk).",
+        "Draft opening lines for [Target Audience] that immediately signal 'this was built for my exact situation'."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Clear Positioning & Copywriting",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "能被普通人 5 秒复述清楚的定位，通常比抽象概念更容易拿到第一批真实反馈",
+          "en": "Positioning someone can repeat accurately in 5 seconds gets cleaner feedback and traction"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-low-overhead-stack-first",
+    "arena": "business",
+    "lenses": [
+      "cost-collapse",
+      "invisible-friction"
+    ],
+    "tags": [
+      "bootstrapping",
+      "lean-ops",
+      "margins",
+      "simplicity",
+      "精益起步",
+      "控制固定成本"
+    ],
+    "title": {
+      "zh": "早期死守“极低固定成本”，别还没验证需求就重装上阵",
+      "en": "Keeping Fixed Costs Near Zero Until Demand Is Proven"
+    },
+    "old_assumption": {
+      "zh": "做一件正经事就要先买齐全套高级订阅、折腾复杂架构和精美物料。",
+      "en": "Starting a serious project means buying pro subscriptions, complex infra, and polished branding upfront."
+    },
+    "new_shift": {
+      "zh": "早期固定成本越低，试错容错率越高、心理压力越小；先用最轻量的方案跑通真实付费或真实使用，有正反馈后再逐步升级。",
+      "en": "Low fixed overhead keeps runway long and pressure low—validate real demand with the leanest stack first, then upgrade once revenue or usage proves it."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我打算起步做 [你的项目/副业/服务]，目前列出的准备清单是：[列出你打算买的工具或花的时间]。请帮我砍掉非必要项，给出“零/极低固定成本冷启动清单”。",
+        "在 [你的启动阶段] 里，哪些钱现在花属于“过早优化/烧钱”，哪些钱花在刀刃上能最快验证真实需求？"
+      ],
+      "en": [
+        "I'm starting [Project, Side Bet, or Service] and plan to set up: [List Planned Tools/Spend]. Trim non-essentials into a near-zero fixed-cost launch checklist.",
+        "At my current stage of [Project], what spending would be premature overhead vs. a high-signal test of real demand?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Bootstrapped Lean Operations",
+        "url": "https://levels.io",
+        "note": {
+          "zh": "极简技术栈与低固定成本让单人项目拥有极强的抗风险能力与利润空间",
+          "en": "Lean stacks and low fixed costs give solo builders strong margins and room to experiment"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-niche-templates-and-starter-kits",
+    "arena": "business",
+    "lenses": [
+      "cost-collapse",
+      "invisible-friction"
+    ],
+    "tags": [
+      "starter-kits",
+      "templates",
+      "digital-products",
+      "indie",
+      "起步套件",
+      "现成模板"
+    ],
+    "title": {
+      "zh": "卖“省掉从零搭架子”的起步套件与现成骨架",
+      "en": "Selling Starter Kits That Skip Blank-Page Setup"
+    },
+    "old_assumption": {
+      "zh": "大家自己去搜零散教程拼凑也能搭出来，现成的模板或骨架卖不动。",
+      "en": "People can piece together free guides themselves, so clean starter kits or templates won't sell."
+    },
+    "new_shift": {
+      "zh": "对很多刚起步的人来说，最难的不是写完最后 10%，而是跨过“空白页与环境配置”的冷启动门槛；一套跑得通的骨架能帮他们省掉好几天折腾。",
+      "en": "For many starters, blank-page setup and wiring take days—a working skeleton or starter kit removes early friction and gets them to first results fast."
+    },
+    "seed_prompts": {
+      "zh": [
+        "结合 [你的技术/设计/运营/写作经验]，找出新手在 [某类项目或任务] 起步时最容易卡住的“空白页/配置环节”，设计一款能让他们 30 分钟跑通第一版的起步套件。",
+        "如何让现成模板或起步套件不只是一堆静态文件，而是附带清晰的“10 分钟上手路径与常见坑提示”？"
+      ],
+      "en": [
+        "Using [Your Experience], spot the blank-page or setup hurdle that slows beginners down in [Domain/Task], and design a starter kit that gets them to a working first run in 30 minutes.",
+        "How can a starter kit or template include a crisp 10-minute setup path and pitfall notes so buyers actually get value fast?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Boilerplates & Starter Kits",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "把可运行的最小骨架与踩坑经验打包，能显著降低新手的启动成本",
+          "en": "Packaged working skeletons with clear setup notes cut cold-start friction for builders and operators"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-transparent-simple-pricing",
+    "arena": "business",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "pricing",
+      "simplicity",
+      "trust",
+      "conversion",
+      "透明定价",
+      "极简套餐"
+    ],
+    "title": {
+      "zh": "把价格表砍到“1～2 档明码标价”，别让客户算半天",
+      "en": "Keeping Pricing to 1–2 Clear Tiers Instead of Confusing Matrices"
+    },
+    "old_assumption": {
+      "zh": "定价档位分得越细、隐藏条款越多，越显得专业或能把每一分钱榨干。",
+      "en": "More pricing tiers, complex usage meters, and 'contact us' gates maximize revenue and look enterprise-ready."
+    },
+    "new_shift": {
+      "zh": "复杂的定价表会让犹豫的买家直接关掉页面；一眼看懂“多少钱、包含什么、不适合谁”，反而更容易建立信任并促成下单。",
+      "en": "Convoluted pricing creates decision fatigue and bounce—clear, upfront tiers with plain boundaries build trust and speed up buying."
+    },
+    "seed_prompts": {
+      "zh": [
+        "这是我目前对 [产品/服务/合作方案] 的定价或收费想法：[简述方案]。请帮我把它简化成 1～2 档一眼看懂的方案，并写清“适合谁 / 暂不适合谁”。",
+        "在 [你的目标客户决策场景] 中，哪些定价细节最容易让人产生“是不是还有隐形收费”的顾虑？如何用直白的话提前说清？"
+      ],
+      "en": [
+        "Here is how I'm thinking about pricing [Product, Service, or Offer]: [Brief Details]. Simplify it into 1–2 crystal-clear options with who each fits best.",
+        "What pricing ambiguities make [Target Buyers] hesitate or worry about hidden extras, and how can I state terms plainly upfront?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Transparent Indie Pricing Pages",
+        "url": "https://plausible.io",
+        "note": {
+          "zh": "清晰、可预测、无套路的定价结构，往往能降低独立产品与服务的成交阻力",
+          "en": "Straightforward, predictable pricing lowers buyer hesitation for lean products and services"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-niching-down-by-specific-user",
+    "arena": "business",
+    "lenses": [
+      "role-inversion",
+      "first-principles"
+    ],
+    "tags": [
+      "niche-down",
+      "icp",
+      "positioning",
+      "indie",
+      "精准切口",
+      "垂直人群"
+    ],
+    "title": {
+      "zh": "把“给所有人用”收窄成“专为某类具体人解决某件事”",
+      "en": "Narrowing 'For Everyone' to One Specific Person and Job"
+    },
+    "old_assumption": {
+      "zh": "受众写得越宽，潜在客户就越多，缩窄人群等于主动放弃市场。",
+      "en": "Targeting a broad audience maximizes potential buyers; narrowing down feels like shrinking your market."
+    },
+    "new_shift": {
+      "zh": "泛泛而谈很难让人觉得“这东西是给我做的”；一旦切准某一类具体人群的特定场景，文案、功能和获客渠道都会变得异常清晰。",
+      "en": "Generic pitches get scrolled past—naming one specific buyer and situation makes messaging, features, and outreach dramatically sharper."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我目前面向的受众/客户群有点宽：[简述你的产品、服务或内容方向]。请帮我拆出 3 个更具体的细分人群切口，并说明每个切口最突出的痛点。",
+        "针对 [你选定的一个细分人群]，帮我写出他们日常最常抱怨的一句话，以及能直接回应这句话的产品/服务切入点。"
+      ],
+      "en": [
+        "My current audience feels a bit broad: [Describe Product, Service, or Topic]. Carve out 3 sharper sub-niches and highlight the clearest pain point in each.",
+        "For [Chosen Sub-Niche], write a complaint they actually voice day to day and a focused angle that solves it directly."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Sharp Niche Positioning",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "早期聚焦具体人群与具体痛点，往往比一上来做大而全更容易赢得第一批铁粉",
+          "en": "Focusing early on a concrete user and workflow beats broad generality when finding traction"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-turning-repeat-client-work-into-product",
+    "arena": "business",
+    "lenses": [
+      "cross-domain",
+      "cost-collapse"
+    ],
+    "tags": [
+      "productization",
+      "leverage",
+      "services",
+      "scale",
+      "服务产品化",
+      "经验复用"
+    ],
+    "title": {
+      "zh": "把“每次帮客户/自己重复做”的方案，抽成可复用的标准化产品",
+      "en": "Productizing Repeated Custom Work Into a Repeatable Offer"
+    },
+    "old_assumption": {
+      "zh": "每次合作或每个需求情况都不一样，只能从头定制、一事一议。",
+      "en": "Every client or task has unique quirks, so everything must be scoped and built custom from scratch."
+    },
+    "new_shift": {
+      "zh": "做过 5 次以上的同类定制里，往往 70% 的步骤和骨架都是重复的；把这 70% 固化成标准流程与模板，交付更快、毛利更高。",
+      "en": "After doing similar custom work 5+ times, ~70% of the steps and structure repeat—standardizing that core speeds delivery and lifts margins."
+    },
+    "seed_prompts": {
+      "zh": [
+        "盘点我过去做过的 [咨询/开发/设计/分析/整理] 工作中，哪些类型出现了至少 3 次以上？帮我找出其中可标准化的 70% 骨架与 30% 可定制项。",
+        "如何把一份原本靠“一对一沟通定制”的方案，改造成有清晰步骤、交付清单和固定周期的产品化服务？"
+      ],
+      "en": [
+        "Look across [Consulting, Dev, Design, Analysis, or Ops] tasks I've done 3+ times—separate the repeatable 70% core from the custom 30%.",
+        "How can I package a bespoke, one-off service into a repeatable offer with clear steps, deliverables, and turnaround time?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Productized Services",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "用标准化流程与清晰边界替代纯定制，是个人把经验变成可复制收入的经典路径",
+          "en": "Replacing custom-from-scratch work with clear steps and deliverables creates healthier leverage"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-workflow-embedded-distribution",
+    "arena": "business",
+    "lenses": [
+      "role-inversion",
+      "cross-domain"
+    ],
+    "tags": [
+      "distribution",
+      "embedded",
+      "hooks",
+      "indie-growth",
+      "嵌入分发",
+      "自然触达"
+    ],
+    "title": {
+      "zh": "把产品/服务“嵌进别人每天必看的结果页”里自带分发",
+      "en": "Embedding Distribution Inside Outputs People Already Share or Inspect"
+    },
+    "old_assumption": {
+      "zh": "获客是产品做完之后的独立营销动作，靠发帖、投流或到处求人转发。",
+      "en": "Growth happens after building by posting updates, buying ads, or asking people to share."
+    },
+    "new_shift": {
+      "zh": "当用户每次导出报告、生成分享链接、跑完检查或展示结果时，页面自带极克制的来源标识或可复现入口，每次使用都在替你做自然触达。",
+      "en": "When a tool's output, shared link, or check report carries a clean source badge or 'run this on yours' link, every use quietly creates distribution."
+    },
+    "seed_prompts": {
+      "zh": [
+        "针对 [你的工具/模板/分析服务/内容形式]，设计 2 个“用户正常使用时顺便把价值带给下一个潜在用户”的自然嵌入机制，要求不恶心、不破坏体验。",
+        "盘点 [你熟悉的几款高增长独立工具]，它们在“分享链接 / 导出结果 / 报错或完成页”上藏了哪些聪明的分发细节？"
+      ],
+      "en": [
+        "For [Your Tool, Template, Service, or Format], design 2 non-intrusive ways normal usage exposes the value to the next potential user or collaborator.",
+        "Look at [Indie Tools You Admire]—what subtle distribution hooks live on their shared links, exports, or completion states?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Tally & Powered-By / Shareable Artifacts",
+        "url": "https://tally.so",
+        "note": {
+          "zh": "高频交付物自带轻量来源链接，让每一次真实使用都成为可信的口碑曝光",
+          "en": "Clean attribution on shared artifacts turns everyday user activity into organic discovery"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]

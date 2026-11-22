@@ -160,5 +160,699 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-zero-ui-automation",
+    "arena": "build",
+    "lenses": [
+      "invisible-friction",
+      "first-principles"
+    ],
+    "tags": [
+      "zero-ui",
+      "automation",
+      "ambient",
+      "scripts",
+      "无界面",
+      "隐形自动化"
+    ],
+    "title": {
+      "zh": "无界面 / 隐形自动化（Zero-UI Automation）",
+      "en": "Zero-UI Ambient Automation"
+    },
+    "old_assumption": {
+      "zh": "好工具必须有精美的控制台和仪表盘，让用户每天点开操作。",
+      "en": "Good tools need polished dashboards that you open and operate every day."
+    },
+    "new_shift": {
+      "zh": "最高级的个人工具根本没有界面——它藏在快捷键、文件夹监听或后台脚本里，平时完全隐身，只在异常时才提醒你。",
+      "en": "The best personal tools have no UI at all—they live in hotkeys, folder watchers, and background scripts, staying invisible until an exception needs you."
+    },
+    "seed_prompts": {
+      "zh": [
+        "盘点我每天在电脑上重复超过 3 次的机械操作：[列出 2-3 个具体动作]。帮我把它们改造成“零界面后台自动化”（如文件夹监听、全局快捷键、定时脚本），并给出最小实现方案。",
+        "如果把 [你常用的某个效率工具/流程] 的图形界面全部砍掉，只保留“触发条件 → 自动执行 → 异常通知”三步，它的极简工作流应该怎么设计？"
+      ],
+      "en": [
+        "Audit these repetitive computer actions I do 3+ times a day: [List 2-3 Actions]. Redesign them as zero-UI background automations (folder watchers, hotkeys, cron scripts) with a minimal implementation plan.",
+        "If you stripped the entire GUI from [Workflow/Tool You Use] and kept only 'trigger -> silent execution -> exception alert', what would the minimal pipeline look like?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Hazel",
+        "url": "https://www.noodlesoft.com",
+        "note": {
+          "zh": "macOS 经典无界面文件自动化工具，规则配好后几乎无需再打开",
+          "en": "Classic macOS ambient file automation that runs silently once configured"
+        }
+      },
+      {
+        "name": "Raycast Script Commands",
+        "url": "https://www.raycast.com",
+        "note": {
+          "zh": "用全局快捷键触发任意本地脚本，把重型操作压缩成 1 秒肌肉记忆",
+          "en": "Trigger local scripts via global hotkeys, turning heavy workflows into 1-second muscle memory"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-malleable-web-patches",
+    "arena": "build",
+    "lenses": [
+      "invisible-friction",
+      "cost-collapse"
+    ],
+    "tags": [
+      "userscript",
+      "extension",
+      "malleable-software",
+      "browser",
+      "油猴脚本",
+      "网页外挂"
+    ],
+    "title": {
+      "zh": "用私人脚本给大厂网页打“外挂补丁”",
+      "en": "Patching Annoying Web Apps with Personal Userscripts"
+    },
+    "old_assumption": {
+      "zh": "每天高频使用的网站难用、信息杂乱或少个导出按钮，只能忍着等官方更新。",
+      "en": "If a web app you use daily has cluttered UI or lacks an export button, you just have to live with it."
+    },
+    "new_shift": {
+      "zh": "AI 写浏览器脚本的成本趋近于零，任何人都能花 5 分钟在本地隐藏噪音、注入快捷键或一键导出数据，把别人的软件改成自己的形状。",
+      "en": "AI makes writing userscripts and tiny browser extensions effortless—spend 5 minutes to hide noise, add hotkeys, or inject export buttons into any site you use."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我每天都要用 [某个网站/Web 系统]，但它最让我烦躁的 2 个问题是：[描述痛点，如侧边栏太吵/缺少一键复制/翻页麻烦]。请帮我写一个极简 Tampermonkey 油猴脚本，直接在本地修复这些体验。",
+        "列出 5 个你在 [某高频网站，如 GitHub/B站/Notion/邮箱] 上最值得用 50 行 JS 脚本改造的“反人性交互”，并按提效幅度排序。"
+      ],
+      "en": [
+        "I use [Specific Website/Web App] every day, and two things drive me crazy: [List Friction Points]. Write a minimal Tampermonkey userscript to patch these locally.",
+        "List 5 high-leverage micro-patches (under 50 lines of JS each) that dramatically improve daily usability on [Frequent Site, e.g., GitHub/Gmail/YouTube]."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Malleable Software (Ink & Switch)",
+        "url": "https://www.inkandswitch.com/essay/malleable-software/",
+        "note": {
+          "zh": "“可塑软件”理念：用户应当能像改造房间一样自由微调自己使用的软件",
+          "en": "The vision that users should be able to reshape the software they use to fit their own needs"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-personal-context-api",
+    "arena": "build",
+    "lenses": [
+      "cross-domain",
+      "role-inversion"
+    ],
+    "tags": [
+      "personal-data",
+      "context",
+      "sqlite",
+      "markdown",
+      "私有上下文",
+      "数据中台"
+    ],
+    "title": {
+      "zh": "把个人生活数据当作“私有上下文 API”来运维",
+      "en": "Treating Personal Life Data as a Private Context API"
+    },
+    "old_assumption": {
+      "zh": "笔记、账单、阅读、健康记录散落在十几个商业 App 里，想复盘只能人工来回翻。",
+      "en": "Notes, expenses, reading logs, and health data stay trapped across a dozen separate commercial apps."
+    },
+    "new_shift": {
+      "zh": "借鉴企业数据中台思路，把个人高频数据定期沉淀到本地纯文本或 SQLite，让任何 AI 随时能安全读取你的“个人上下文”来辅助决策。",
+      "en": "Borrowing from enterprise data pipelines, syncing your key personal records into local Markdown or SQLite lets any AI reason over your real life context privately."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我想把目前分散在 [列出你常用的 3 个 App，如微信读书/记账软件/Apple Health] 的个人数据，定期同步到本地纯文本/SQLite 形成我的“私有上下文库”。请帮我设计一个极简、低维护的目录结构与同步方案。",
+        "如果我把过去半年的 [某类个人记录，如消费/日程/学习笔记] 整理成结构化文本喂给 AI，请设计 5 个平时我自己绝对看不出来的“跨维度复盘提问”。"
+      ],
+      "en": [
+        "I want to sync my scattered data from [List 3 Apps, e.g., Kindle/Expense Tracker/Calendar] into a local Markdown/SQLite personal context store. Design a minimal, low-maintenance folder structure and sync workflow.",
+        "Once I feed 6 months of structured [Type of Personal Log] to an AI, give me 5 cross-dimensional review prompts that reveal patterns I would never spot manually."
+      ]
+    },
+    "signals": [
+      {
+        "name": "HPI (Human Programming Interface)",
+        "url": "https://github.com/karlicoss/HPI",
+        "note": {
+          "zh": "开源个人数据聚合接口，将个人各类数字足迹统一变成可编程本地数据",
+          "en": "Open-source Python interface unifying personal digital footprints into programmable local data"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-llm-as-compiler-for-docs",
+    "arena": "build",
+    "lenses": [
+      "role-inversion",
+      "cost-collapse"
+    ],
+    "tags": [
+      "compiler",
+      "docs",
+      "structured-data",
+      "pipeline",
+      "文档编译",
+      "结构化"
+    ],
+    "title": {
+      "zh": "把非结构化文档当作“源码”编译成结构化系统",
+      "en": "Treating Unstructured Docs as Source Code Compiled into Systems"
+    },
+    "old_assumption": {
+      "zh": "长文档、会议纪要、PDF 规则书和邮件只能写给人看，改了之后靠人工通知同步。",
+      "en": "Specs, memos, PDFs, and emails are static text for humans—changes stay synced by manual reminders."
+    },
+    "new_shift": {
+      "zh": "把自然语言规则/文档当成“源码”，用 AI 流水线自动编译成 JSON 配置、测试断言、任务清单或日程变更，文档改了系统自动跟着变。",
+      "en": "Treat prose specs and notes as source code that compiles via LLM pipelines into JSON rules, test assertions, tasks, or calendar updates."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我有一类经常更新的文本/规则文档：[描述文档类型，如项目需求/报销规则/读书笔记]。请帮我设计一个“文档 → 结构化数据/任务清单”的自动提取与校验流水线。",
+        "在 [你的个人或团队工作流] 中，哪些“改了文档却忘了改配置/代码/待办”的同步断层，最适合用轻量脚本 + AI 校验来消除？"
+      ],
+      "en": [
+        "I maintain frequently updated prose docs like [Spec/Policy/Notes]. Design a pipeline that compiles them into structured JSON, checklists, or test rules with drift checks.",
+        "In [Your Workflow], where do docs and downstream configs/tasks drift out of sync, and how can a lightweight script + LLM check keep them aligned?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Spec-to-Test & Schema Pipelines",
+        "url": "https://github.com",
+        "note": {
+          "zh": "用结构化 Schema 约束大模型输出，让文本能稳定驱动下游工具",
+          "en": "Constrained structured outputs turn natural language into reliable downstream program inputs"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-local-sandbox-rehearsal",
+    "arena": "build",
+    "lenses": [
+      "cost-collapse",
+      "invisible-friction"
+    ],
+    "tags": [
+      "dry-run",
+      "sandbox",
+      "local-first",
+      "testing",
+      "本地演练",
+      "防翻车"
+    ],
+    "title": {
+      "zh": "给危险或高成本动作加一层“本地沙盒预演”",
+      "en": "Adding a Local Dry-Run Sandbox Before High-Stakes Actions"
+    },
+    "old_assumption": {
+      "zh": "批量改文件、群发消息、调外部接口或跑自动化脚本，要么小心翼翼手动点，要么出事了才后悔。",
+      "en": "Batch file edits, bulk sends, or automation scripts either get clicked painfully by hand or break things in production."
+    },
+    "new_shift": {
+      "zh": "先在本地临时目录或“只打印计划不执行（Dry-Run）”模式下跑一遍预览与差异对比，确认无误再放行，极大降低自动化焦虑。",
+      "en": "Running a dry-run preview with clear diffs in a temp folder before real execution removes the fear of automation mistakes."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我打算写一个自动处理 [文件整理/数据清洗/批量修改] 的脚本，最怕误删或改错。请帮我设计标准的 `--dry-run` 预览与备份回滚机制。",
+        "盘点我最容易“手滑点错或批量改崩”的 3 个电脑操作，如何用极简的预演/确认步骤把容错率拉满？"
+      ],
+      "en": [
+        "I'm automating [File Cleanup/Data Transform/Batch Edit] and fear accidental data loss. Design a clean `--dry-run` diff preview and rollback safety net.",
+        "List 3 computer tasks where a slip-up hurts most, and add a fast preview/confirmation guard that keeps speed high and risk low."
+      ]
+    },
+    "signals": [
+      {
+        "name": "rsync --dry-run & Git Worktrees",
+        "url": "https://git-scm.com/docs/git-worktree",
+        "note": {
+          "zh": "隔离工作区与预演机制是工程界对抗“改坏现状”最朴素也最可靠的护栏",
+          "en": "Isolated workspaces and dry-run previews are simple, battle-tested guards against unintended changes"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-declarative-config-over-clicks",
+    "arena": "build",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "config-as-code",
+      "declarative",
+      "reproducible",
+      "automation",
+      "声明式配置",
+      "可复现"
+    ],
+    "title": {
+      "zh": "用“声明式配置/脚本”替代靠记忆点 20 步界面",
+      "en": "Replacing 20-Click Menus with Declarative Configs & Scripts"
+    },
+    "old_assumption": {
+      "zh": "换电脑、重装环境或改一套配置，只能凭印象在设置面板里一步步点回去。",
+      "en": "Setting up a new machine or tweaking a workflow means clicking through 20 menu screens from memory."
+    },
+    "new_shift": {
+      "zh": "把偏好、环境依赖和常用组合写成一份可读的配置文件或脚本，重装、迁移和分享都能一键复现，再也不怕忘掉当初怎么配出来的。",
+      "en": "Capturing preferences, setups, and shortcuts in declarative configs or scripts makes new machines, rollbacks, and sharing reproducible in seconds."
+    },
+    "seed_prompts": {
+      "zh": [
+        "列出我每次换设备或重装时最容易漏掉的 5 个环境/工具配置项：[填入你的常用环境或工具]。帮我设计一份可版本管理的极简配置清单或一键初始化脚本思路。",
+        "在 [你日常使用的某个软件/工作流] 中，哪些“靠手动勾选、记笔记”的设置其实可以沉淀成模板或配置，省去重复劳动？"
+      ],
+      "en": [
+        "List 5 setup items I easily forget when switching machines or environments for [Your Stack/Tools], and design a versionable checklist or bootstrap script plan.",
+        "In [Tool or Workflow You Use], what manual settings or repetitive clicks can be captured as a reusable config or template instead?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Dotfiles & Infrastructure-as-Code",
+        "url": "https://dotfiles.github.io",
+        "note": {
+          "zh": "把个人环境配置放进版本控制，让换机与回滚变得可追踪、可复现",
+          "en": "Keeping personal environment configs in version control makes setups reproducible and reversible"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-human-in-the-loop-checkpoints",
+    "arena": "build",
+    "lenses": [
+      "role-inversion",
+      "invisible-friction"
+    ],
+    "tags": [
+      "human-in-the-loop",
+      "approval",
+      "agents",
+      "safety",
+      "关键卡点确认",
+      "人机协同"
+    ],
+    "title": {
+      "zh": "让自动化只在“关键决策卡点”停下来等人确认",
+      "en": "Pausing Automation Only at High-Stakes Decision Gates"
+    },
+    "old_assumption": {
+      "zh": "自动化要么是“全自动无人值守”，要么是“每一步都弹窗问人”，两者都很别扭。",
+      "en": "Automation feels like an all-or-nothing choice between blind autonomy and annoying step-by-step prompts."
+    },
+    "new_shift": {
+      "zh": "最顺手的人机协作是：前 90% 的搜集、清洗、草拟全自动跑完，只在涉及对外发送、花钱、删改或高风险判断时留一个清晰确认点。",
+      "en": "The sweet spot is automated research, drafting, and prep—pausing cleanly only before external sends, spend, destructive actions, or high-judgment calls."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我想把 [某个半自动工作流，如整理信息/起草回复/生成方案] 交给 AI 或脚本跑。请帮我画出“自动执行段”和“必须停下来让我确认的 1～2 个关键卡点”。",
+        "针对 [你最担心的自动化翻车场景]，设计一种“低打扰但足够安全”的确认与兜底机制，既不天天弹框烦人又能挡住致命错误。"
+      ],
+      "en": [
+        "I'm automating [Workflow, e.g., research triage/drafting/planning]. Map what runs automatically vs. the 1–2 decision gates where it should pause for my sign-off.",
+        "For [High-Risk Automation Scenario], design a low-noise approval or fallback guard that prevents costly mistakes without constant interruptions."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Human-in-the-Loop Agent Patterns",
+        "url": "https://www.anthropic.com/engineering/building-effective-agents",
+        "note": {
+          "zh": "在关键动作前设置显式确认与护栏，是提升自主工作流可靠性的核心实践",
+          "en": "Explicit human checkpoints before consequential actions keep autonomous workflows trustworthy"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-eval-harness-for-prompts",
+    "arena": "build",
+    "lenses": [
+      "first-principles",
+      "cost-collapse"
+    ],
+    "tags": [
+      "evals",
+      "prompts",
+      "regression",
+      "testing",
+      "评测集",
+      "防退化"
+    ],
+    "title": {
+      "zh": "给高频 Prompt / 工作流建一份“5 条样例评测集”",
+      "en": "Building a 5-Case Eval Set Before Tweaking Prompts"
+    },
+    "old_assumption": {
+      "zh": "改完提示词或工作流，顺手拿手头这一条测一下顺眼就行。",
+      "en": "After editing a prompt or workflow, testing it on one sample that looks good is enough."
+    },
+    "new_shift": {
+      "zh": "单条样例很容易陷入“修好 A 搞坏 B”；固定 3～5 条典型+刁钻样例做对照，每次改动都能一眼看出是真变强还是只是偏科。",
+      "en": "Testing on one example lets regressions slip through—keeping 3–5 tricky benchmark cases shows whether a tweak actually improves reliability."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我有一个高频使用的 [Prompt/工作流/自动化规则]：[简述用途]。请帮我设计 4 条覆盖常规、边界与刁钻情况的测试样例，以及一条客观的评分标准。",
+        "在 [你的 AI 使用场景] 中，哪些“改了之后偶尔抽风”的提示词最值得先建一套最小评测集再做优化？"
+      ],
+      "en": [
+        "I have a high-frequency [Prompt, Workflow, or Rule]: [Brief Purpose]. Design 4 test cases (normal, edge, and tricky) plus a clear pass/fail rubric.",
+        "In [Your AI Workflow], which prompts or automations drift unexpectedly and would benefit most from a small benchmark set before further tuning?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Practical LLM Evals",
+        "url": "https://hamel.dev/blog/posts/evals/",
+        "note": {
+          "zh": "从真实错误案例中提炼小而精的评测样例，比凭空猜指标更管用",
+          "en": "Small eval sets grounded in real failure cases beat abstract metrics in daily iteration"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-portable-plain-text-archives",
+    "arena": "build",
+    "lenses": [
+      "invisible-friction",
+      "first-principles"
+    ],
+    "tags": [
+      "plain-text",
+      "markdown",
+      "json",
+      "portability",
+      "纯文本",
+      "抗锁定"
+    ],
+    "title": {
+      "zh": "把核心资产存成“纯文本/JSON”，不被单一工具绑架",
+      "en": "Storing Core Assets in Plain Text & JSON Instead of Walled Gardens"
+    },
+    "old_assumption": {
+      "zh": "把笔记、清单和方案全塞进某个热门 App 的私有格式里，方便又省事。",
+      "en": "Putting notes, trackers, and docs inside a proprietary app's lock-in format is easiest."
+    },
+    "new_shift": {
+      "zh": "工具会涨价、改版、关停或换代，但 Markdown、CSV 和 JSON 跨越几十年依然能被任何编辑器、脚本和 AI 直接读写。",
+      "en": "Tools change pricing, redesign, or shut down—Markdown, CSV, and JSON remain readable by any editor, script, or AI for decades."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我目前把 [某类重要资料/笔记/清单] 放在 [某个软件或平台] 里。请帮我设计一套导出与落盘为 Markdown / JSON 的结构方案，兼顾可读性与脚本可处理性。",
+        "如何让“平时顺手写在某个工具里”和“定期沉淀成跨工具可复用的纯文本/JSON”不变成两张皮？"
+      ],
+      "en": [
+        "I currently keep [Notes, Trackers, or Docs] inside [App/Platform]. Design a clean Markdown or JSON representation that stays human-readable and script-friendly.",
+        "How can I keep quick daily capture effortless while ensuring important records stay portable in plain text or JSON?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Plain Text & File-Over-App (Steph Ango)",
+        "url": "https://stephango.com/file-over-app",
+        "note": {
+          "zh": "文件大于软件：让数据文件成为长期主体，软件只是随时可替换的窗口",
+          "en": "File over app: your files outlive any single app when stored in durable open formats"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-small-composable-modules",
+    "arena": "build",
+    "lenses": [
+      "first-principles",
+      "cross-domain"
+    ],
+    "tags": [
+      "modularity",
+      "unix-philosophy",
+      "composable",
+      "scripts",
+      "模块化",
+      "可组合"
+    ],
+    "title": {
+      "zh": "把大脚本拆成“单一职责的小模块”，靠管道拼装而不是硬写巨石",
+      "en": "Composing Small Single-Purpose Scripts Over Monolithic Automation"
+    },
+    "old_assumption": {
+      "zh": "写自动化时习惯把抓取、清洗、判断、输出全塞进一个几百行的庞大脚本里。",
+      "en": "Automations often bundle fetching, cleaning, filtering, and output into one giant script that's hard to debug or reuse."
+    },
+    "new_shift": {
+      "zh": "每个小模块只干好一件事、输入输出格式清晰，换一个数据源或换一个输出目标时，直接像积木一样重新拼装即可。",
+      "en": "Small tools that each do one job cleanly with clear inputs and outputs snap together like blocks when a source or destination changes."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我有一个偏臃肿的 [脚本/工作流/自动化任务]：[简述流程]。请帮我拆成 3～4 个职责单一的独立步骤，并定好它们之间传递数据的极简格式。",
+        "在 [你的日常自动化场景] 中，哪些“只做一件事的过滤/转换小工具”最值得单独抽出来，方便以后反复复用？"
+      ],
+      "en": [
+        "I have a sprawling [Script or Workflow]: [Brief Flow]. Break it into 3–4 single-purpose steps with a clean data format passed between them.",
+        "In [Your Automation Setup], which small filter or formatter step is worth pulling out as a standalone reusable block?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Unix Philosophy — Do One Thing Well",
+        "url": "https://en.wikipedia.org/wiki/Unix_philosophy",
+        "note": {
+          "zh": "单一职责与标准文本/数据流组合，让小工具拥有极高的复用性与可维护性",
+          "en": "Single-purpose tools linked by clean data streams stay easy to test, swap, and reuse"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-graceful-fallback-when-ai-fails",
+    "arena": "build",
+    "lenses": [
+      "invisible-friction",
+      "first-principles"
+    ],
+    "tags": [
+      "fallback",
+      "resilience",
+      "deterministic",
+      "reliability",
+      "兜底降级",
+      "确定性"
+    ],
+    "title": {
+      "zh": "给 AI 能力配“确定性兜底”，别让偶尔抽风卡死整条流程",
+      "en": "Pairing AI Steps with Deterministic Fallbacks Instead of Brittle Chains"
+    },
+    "old_assumption": {
+      "zh": "既然引入了 AI，就让模型从头包揽所有解析、分类和格式化。",
+      "en": "Once AI is in the loop, let the model handle parsing, routing, and formatting end-to-end every time."
+    },
+    "new_shift": {
+      "zh": "确定性规则能搞定的事别交给概率模型；AI 拿不到预期格式或超时时，自动走规则兜底或跳过留待人工，整条流水线就不会轻易瘫痪。",
+      "en": "Keep deterministic rules where rules suffice, and add clean fallbacks when AI outputs miss format or time out so the whole pipeline keeps moving."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我有一个依赖 AI 输出的 [工作流/脚本/工具]：[简述用途]，偶尔会出现格式不对或结果偏差。请帮我设计一套“先规则/校验，不行再降级兜底”的安全方案。",
+        "审视 [你的某个 AI 应用或工作流]，指出哪两个环节最适合用传统确定性逻辑分担，减少模型的负担与不确定性？"
+      ],
+      "en": [
+        "My [Workflow or Tool] relies on AI output—[Brief Purpose]—and occasionally slips on format or edge cases. Design a clean validation and fallback path.",
+        "Inspect [Your AI Workflow] and point out 2 steps where deterministic rules can share the load and make behavior steadier."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Guardrails & Fallback Patterns",
+        "url": "https://www.anthropic.com/engineering/building-effective-agents",
+        "note": {
+          "zh": "结合校验与优雅降级，能让含 AI 环节的系统在真实使用中更稳健",
+          "en": "Combining schema checks with graceful fallbacks keeps real-world workflows resilient"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-structured-logs-for-debugging",
+    "arena": "build",
+    "lenses": [
+      "invisible-friction",
+      "first-principles"
+    ],
+    "tags": [
+      "logging",
+      "debugging",
+      "observability",
+      "scripts",
+      "结构化日志",
+      "排错效率"
+    ],
+    "title": {
+      "zh": "给脚本和工作流留“结构化痕迹”，出事时 1 分钟定位",
+      "en": "Leaving Structured Traces So Failures Take 1 Minute to Diagnose"
+    },
+    "old_assumption": {
+      "zh": "小工具或自动化平时能跑通就行，出错了再临时加打印或靠猜。",
+      "en": "Small scripts and workflows only need to run when things go right—debug errors by guessing later."
+    },
+    "new_shift": {
+      "zh": "记录关键输入摘要、耗时、跳过原因与最后成功状态，一旦哪天静默失效或结果异常，立刻能顺藤摸瓜找到根因。",
+      "en": "Recording input counts, skip reasons, timings, and last-good state turns mysterious silent failures into a 1-minute root-cause check."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我有一个日常跑的 [脚本/自动化/工作流]：[简述流程]。帮我设计一套轻量日志与运行摘要格式，既不会把盘塞爆，又能让我在出错时快速定位原因。",
+        "在 [你的个人工具或自动化场景] 中，哪些“静默失败（没报错但结果不对）”最隐蔽？如何加一个简单自检提示？"
+      ],
+      "en": [
+        "I run [Script, Automation, or Workflow]: [Brief Flow]. Design a lightweight run-log format that stays compact while making failures easy to trace.",
+        "In [Your Tools or Automations], what kind of 'silent failure' (no crash, wrong result) is hardest to notice, and how can a simple sanity check catch it?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Structured Observability in Small Tools",
+        "url": "https://blog.pragmaticengineer.com",
+        "note": {
+          "zh": "清晰的上下文记录与运行摘要，是降低日常排错成本的高回报习惯",
+          "en": "Clear run summaries and context logs cut debugging time dramatically even in small personal tools"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-keyboard-first-friction-cuts",
+    "arena": "build",
+    "lenses": [
+      "cost-collapse",
+      "invisible-friction"
+    ],
+    "tags": [
+      "keyboard",
+      "hotkeys",
+      "ergonomics",
+      "speed",
+      "键盘流",
+      "减摩擦"
+    ],
+    "title": {
+      "zh": "把每天高频切换的 3 个动作绑成顺手快捷键",
+      "en": "Binding Your Top 3 Daily Context Switches to Effortless Hotkeys"
+    },
+    "old_assumption": {
+      "zh": "每次打开特定工具、查特定资料或切窗口，多点几下鼠标、多翻几层菜单也差不了几秒。",
+      "en": "Clicking through menus or hunting windows for frequent tasks only takes a few seconds each time."
+    },
+    "new_shift": {
+      "zh": "每天几十次的微摩擦加起来就是一整块专注力与时间；把最常用的 3 个入口绑成直达快捷键，动作变顺手后使用频率也会自然提高。",
+      "en": "Dozens of tiny micro-frictions add up every day—binding your top 3 recurring actions to instant hotkeys saves time and makes good habits easier to trigger."
+    },
+    "seed_prompts": {
+      "zh": [
+        "盘点我每天在电脑上最常重复打开或切换的 5 个窗口/工具/动作：[填入你的高频操作]。帮我挑出最值得优先设快捷键的 3 个，并给出无冲突的按键组合建议。",
+        "在 [你的常用编辑器/终端/浏览器/启动器] 中，有哪些能把“多步操作”压成“一键触发”的实用小配置？"
+      ],
+      "en": [
+        "Here are 5 windows, tools, or actions I open or switch to constantly: [List 5 Actions]. Pick the top 3 to bind to shortcuts and suggest conflict-free key combos.",
+        "In [Your Editor, Terminal, Browser, or Launcher], what quick config turns a multi-step sequence into a single instant trigger?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Keyboard-Centric Tooling",
+        "url": "https://www.raycast.com",
+        "note": {
+          "zh": "减少鼠标往返与菜单寻找，让高频操作接近“想到即触发”",
+          "en": "Cutting menu hunting and mouse detours brings frequent actions close to instant recall"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-agent-state-machines-over-loops",
+    "arena": "build",
+    "lenses": [
+      "first-principles",
+      "role-inversion"
+    ],
+    "tags": [
+      "state-machine",
+      "agents",
+      "determinism",
+      "workflows",
+      "状态机",
+      "智能体编排"
+    ],
+    "title": {
+      "zh": "用“显式状态机”约束 Agent 流转，而不是放任自由循环",
+      "en": "Constraining Agent Flows with Explicit State Machines Over Open Loops"
+    },
+    "old_assumption": {
+      "zh": "让 Agent 自己决定下一步干什么、循环到满意为止，最接近“真正自主”。",
+      "en": "Letting an agent freely loop and improvise every next step until it feels done is the most autonomous design."
+    },
+    "new_shift": {
+      "zh": "无界循环容易死循环、烧光预算或偏离轨道；把关键阶段锁进明确状态转移（草稿 → 校验 → 确认 → 执行），自主性更高且可控性呈数量级提升。",
+      "en": "Unbounded loops burn tokens and drift—locking stages into explicit state transitions (draft → verify → approve → act) gives real reliability without losing leverage."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我有一个多步 [AI 工作流 / Agent 任务]：[简述输入、中间步骤与期望结果]。请帮我画出它的核心状态节点与允许跳转的条件，标出最容易卡死或越界的转移边。",
+        "如果把 [你正在搭的某个自动化流程] 改造成带“显式状态与重试上限”的有限状态机，哪些步骤应该允许自动重试，哪些必须直接失败上报？"
+      ],
+      "en": [
+        "I'm building a multi-step [AI Workflow or Agent Task]: [Describe Inputs, Steps & Target Output]. Map its core states and valid transitions, highlighting where loops or drift can happen.",
+        "If I model [My Automation Flow] as an explicit state machine with retry caps, which steps should auto-retry vs. fail fast for human inspection?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Building Effective Agents (Anthropic)",
+        "url": "https://www.anthropic.com/engineering/building-effective-agents",
+        "note": {
+          "zh": "强调在自主度与结构化编排之间做务实取舍，比堆砌复杂自由循环更稳健",
+          "en": "Pragmatic workflow structure and clear boundaries outperform uncontrolled loops in production"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]
