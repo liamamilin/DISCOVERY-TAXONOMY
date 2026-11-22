@@ -1,0 +1,157 @@
+[
+  {
+    "id": "content-workflow-as-asset",
+    "arena": "content",
+    "lenses": [
+      "first-principles",
+      "role-inversion"
+    ],
+    "tags": [
+      "build-in-public",
+      "open-source",
+      "taxonomy",
+      "asset",
+      "工作流资产",
+      "开源内容"
+    ],
+    "title": {
+      "zh": "把私有工作流直接转化为公开内容资产",
+      "en": "Turning Private Workflows into Public Content Assets"
+    },
+    "old_assumption": {
+      "zh": "做内容必须专门抽出额外时间“憋选题、写长文、剪视频”。",
+      "en": "Creating content requires carving out separate time to brainstorm topics, write essays, or film videos."
+    },
+    "new_shift": {
+      "zh": "在 AI 垃圾文章泛滥的时代，把你日常解决问题沉淀下来的结构化清单、分类库、Prompt 和工具直接开源展示，才是最具传播力的硬通货。",
+      "en": "In a sea of AI slop, publishing the real checklists, taxonomies, prompts, and mini-tools you already built for yourself earns far higher trust and shares."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我平时在工作/生活中反复做的一件事是：[描述你的具体事情]。请帮我把它拆解成一个可复用的公开资产（模板/静态卡片库/清单），并设计 3 个能让同行主动转发的切入点。",
+        "如何把 [你的某个日常研究/踩坑记录] 改造成一个可交互、可搜索的极简网页合集，让它从一次性文章变成长期带来自然流量的资产？"
+      ],
+      "en": [
+        "I repeatedly do [Specific Task] in my work/life. Help me package this process into a reusable public asset (template, checklist, or static library) with 3 angles peers will actually share.",
+        "How can I turn my raw notes on [Your Topic] into a searchable, interactive mini-site that compounds organic traffic instead of dying in a social feed?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Prompt-taxonomy",
+        "url": "https://liamamilin.github.io/Prompt-taxonomy/#library",
+        "note": {
+          "zh": "将个人高频 AI 工作流与提示词沉淀为可检索的公开卡片库",
+          "en": "Personal AI workflows packaged as a searchable public card library"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "content-interactive-toys",
+    "arena": "content",
+    "lenses": [
+      "cross-domain",
+      "cost-collapse"
+    ],
+    "tags": [
+      "interactive",
+      "viral",
+      "web-toy",
+      "explorable",
+      "交互式内容",
+      "病毒传播"
+    ],
+    "title": {
+      "zh": "反算法推荐的“交互式网页玩具”内容",
+      "en": "Interactive Web Toys & Explorable Explanations"
+    },
+    "old_assumption": {
+      "zh": "传播观点和获取流量只能靠图文、短视频和播客去卷平台算法。",
+      "en": "Spreading ideas and earning attention means fighting social algorithms with text threads or short videos."
+    },
+    "new_shift": {
+      "zh": "AI 让单人做出精巧的交互式小网页门槛骤降，一个能让用户亲手点 3 分钟的“可玩概念”，传播穿透力远超一万字长文。",
+      "en": "AI collapsed the cost of interactive frontends—a 3-minute playable web toy or simulator spreads organically far better than a 3,000-word essay."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我想向大众解释一个复杂概念：[填入你想讲的概念]。请帮我设计 3 个“可交互网页玩具/小游戏”的玩法原型，让用户玩 2 分钟就能彻底悟懂。",
+        "针对 [你的目标受众，如程序员/理财新手/英语学习者]，设计一个带有反差幽默感、用户玩完会忍不住截图发朋友圈的极简网页小测试。"
+      ],
+      "en": [
+        "I want to explain [Complex Concept] intuitively. Propose 3 interactive web-toy or mini-simulator mechanics that let users grasp it by playing for 2 minutes.",
+        "For [Target Audience], design a playful, slightly absurd single-page web interactive whose result screen naturally makes people share screenshots."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Neal.fun",
+        "url": "https://neal.fun",
+        "note": {
+          "zh": "独立开发者靠一系列脑洞网页小玩具持续获得亿级自然传播",
+          "en": "Indie creator driving hundreds of millions of organic visits through pure web toys"
+        }
+      },
+      {
+        "name": "Explorable Explanations",
+        "url": "https://explorabl.es",
+        "note": {
+          "zh": "用交互式模拟取代静态文章的“可探索式解释”合集",
+          "en": "Curated hub of interactive essays and playable simulations"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "content-curated-curation-edge",
+    "arena": "content",
+    "lenses": [
+      "invisible-friction",
+      "role-inversion"
+    ],
+    "tags": [
+      "curation",
+      "signal",
+      "anti-slop",
+      "niche-media",
+      "策展",
+      "反信息过载"
+    ],
+    "title": {
+      "zh": "极高密度的“反过载策展”替代泛资讯搬运",
+      "en": "High-Density Anti-Slop Curation Over Volume Publishing"
+    },
+    "old_assumption": {
+      "zh": "做自媒体必须保持日更、追热点，靠更新频率维持存在感。",
+      "en": "Creators must post daily and chase trending news to stay relevant."
+    },
+    "new_shift": {
+      "zh": "内容供给无限趋近于免费后，受众最稀缺的不是“多看一篇”，而是有人替他们狠心删掉 99% 噪音、只留 1% 经过实测验证的精选。",
+      "en": "When content volume is infinite and free, audiences don't want more posts—they pay attention to curators who ruthlessly delete 99% of the noise."
+    },
+    "seed_prompts": {
+      "zh": [
+        "在 [你关注的垂直领域] 里，大家每天都被哪些低质重复信息轰炸？帮我设计一份“每月只发一次、但每条都经过实测验证”的高密度策展专栏结构。",
+        "如何为 [某垂直主题] 设计一套透明的“入选红线与淘汰标准”，让读者一眼看出我的推荐库和普通搬运号有本质区别？"
+      ],
+      "en": [
+        "What repetitive noise floods [Your Niche] every week? Design a low-frequency, ultra-high-density curation format where every item is hands-on verified.",
+        "Draft a transparent 'inclusion & rejection rubric' for a curated library on [Your Topic] so readers immediately trust its signal-to-noise ratio."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Dense Discovery",
+        "url": "https://www.densediscovery.com",
+        "note": {
+          "zh": "独立策展周刊，靠极高的审美与信息密度积累了忠实全球读者",
+          "en": "Independent curated newsletter thriving on taste and signal density"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  }
+]

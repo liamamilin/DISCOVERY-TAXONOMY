@@ -1,0 +1,164 @@
+[
+  {
+    "id": "build-agent-native-infra",
+    "arena": "build",
+    "lenses": [
+      "role-inversion",
+      "first-principles"
+    ],
+    "tags": [
+      "agent",
+      "infra",
+      "api",
+      "sandbox",
+      "基建",
+      "智能体"
+    ],
+    "title": {
+      "zh": "给 AI Agent 用的专属基础设施",
+      "en": "Agent-Native Infrastructure (Built for Machines, Not Humans)"
+    },
+    "old_assumption": {
+      "zh": "邮箱、浏览器、支付和身份验证都是围绕人类图形界面（GUI）设计的。",
+      "en": "Email, browsers, payments, and auth are designed around human GUIs."
+    },
+    "new_shift": {
+      "zh": "AI Agent 正在成为软件的新一类用户，它们不需要好看的 UI，需要的是极简 API、沙盒与独立身份。",
+      "en": "AI agents are becoming primary software users—they need headless APIs, sandboxes, and machine identities, not pretty dashboards."
+    },
+    "seed_prompts": {
+      "zh": [
+        "列出 5 个目前完全为人类设计的互联网基础设施（如邮箱、日历、支付、客服），分析当使用者变成 AI Agent 时，原产品的最大摩擦点是什么，以及对应的极简 API 替代品该如何设计。",
+        "在 [你的技术栈/熟悉领域] 中，如果要为一个自主运行的 AI Agent 提供安全沙盒和权限审计层，最小的独立开发者 MVP 应该只做哪 3 个核心接口？"
+      ],
+      "en": [
+        "List 5 internet primitives built for humans (email, calendar, payments, auth) and explain what breaks when the user is an AI agent—plus how a headless API replacement should work.",
+        "In [Your Tech Stack/Domain], what are the 3 minimal endpoints needed to build an indie-friendly sandbox and permission layer for autonomous AI agents?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "AgentMail",
+        "url": "https://agentmail.to",
+        "note": {
+          "zh": "专为 AI Agent 设计的邮箱 API 基础设施",
+          "en": "Email inbox API built specifically for AI agents"
+        }
+      },
+      {
+        "name": "E2B",
+        "url": "https://e2b.dev",
+        "note": {
+          "zh": "为 AI 生成代码提供安全隔离的云端代码沙盒",
+          "en": "Open-source cloud sandboxes for AI-executed code"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-disposable-micro-software",
+    "arena": "build",
+    "lenses": [
+      "cost-collapse",
+      "first-principles"
+    ],
+    "tags": [
+      "disposable-software",
+      "single-use",
+      "local",
+      "一次性软件",
+      "微工具"
+    ],
+    "title": {
+      "zh": "用完即弃的“一次性定制微软件”",
+      "en": "Disposable, Single-Use Personal Software"
+    },
+    "old_assumption": {
+      "zh": "写软件成本极高，所以每个程序都必须做成通用产品、长期维护并服务成千上万人。",
+      "en": "Software is expensive to build, so every app must be generalized, maintained for years, and built for thousands."
+    },
+    "new_shift": {
+      "zh": "代码生成成本趋近于零后，为一次旅行、一次搬家或一次数据清洗花 10 分钟生成专属本地网页应用变得完全划算。",
+      "en": "With near-zero code generation cost, spinning up a bespoke local app for one trip, one move, or one dataset is now completely practical."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我最近需要处理一件一次性但很繁琐的事：[描述你的具体任务]。请帮我设计一个单文件 HTML/JS 本地微工具的极简规格，让我 10 分钟内生成并用完即弃。",
+        "盘点 [你的职业/生活场景] 中，哪些原本只能凑合用 Excel 做的临时任务，现在更适合用“一次性定制小网页”彻底解决？"
+      ],
+      "en": [
+        "I have a tedious one-off task: [Describe Your Task]. Spec out a single-file local HTML/JS micro-app I can generate in 10 minutes, use once, and discard.",
+        "In [Your Role/Life Context], which messy tasks people currently hack together in spreadsheets are better solved by disposable, bespoke single-use web apps?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Home-Cooked Software (Robin Sloan)",
+        "url": "https://www.robinsloan.com/notes/home-cooked-app/",
+        "note": {
+          "zh": "“家常软件”概念：只为自己和家人做的小程序",
+          "en": "The classic essay on apps cooked just for yourself and loved ones"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-local-first-edge-ai",
+    "arena": "build",
+    "lenses": [
+      "cost-collapse",
+      "first-principles"
+    ],
+    "tags": [
+      "local-first",
+      "edge-ai",
+      "privacy",
+      "offline",
+      "本地优先",
+      "端侧模型"
+    ],
+    "title": {
+      "zh": "本地优先 + 端侧小模型的反云端软件",
+      "en": "Local-First Software Powered by Tiny Edge Models"
+    },
+    "old_assumption": {
+      "zh": "智能应用必须把用户数据传到云端、调用昂贵的大模型 API 并收取月度订阅费。",
+      "en": "Smart apps must upload user data to the cloud, pay cloud LLM APIs, and charge monthly subscriptions."
+    },
+    "new_shift": {
+      "zh": "轻量级端侧视觉/语音/文本模型已经小到能在普通笔记本离线流畅运行，隐私敏感场景迎来“零 API 成本”的一次性买断新机会。",
+      "en": "Tiny open vision/audio/text models now run offline on consumer laptops, unlocking privacy-first, zero-API-cost software."
+    },
+    "seed_prompts": {
+      "zh": [
+        "列出 5 个用户极度在意隐私、不敢上传云端的 [某领域，如医疗/财务/个人日记] 场景，设计一个完全离线运行、结合端侧小模型的本地优先工具。",
+        "对比云端大模型 API 与本地小模型（如 Whisper/Moondream/Qwen 小参数版），在 [具体使用场景] 中，如何通过任务拆解让端侧小模型达到 90% 的可用效果？"
+      ],
+      "en": [
+        "List 5 privacy-sensitive workflows in [Domain, e.g., finance/health/journaling] where users refuse cloud uploads, and design an offline local-first tool using tiny edge models.",
+        "For [Specific Use Case], how can I decompose the task so a small local model (Whisper/Moondream/small LLM) hits 90% accuracy with zero cloud API cost?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Moondream",
+        "url": "https://moondream.ai",
+        "note": {
+          "zh": "极致轻量的开源端侧视觉理解模型，可本地离线运行",
+          "en": "Tiny open-source vision model built to run anywhere on-device"
+        }
+      },
+      {
+        "name": "Local-First Software",
+        "url": "https://www.inkandswitch.com/local-first/",
+        "note": {
+          "zh": "Ink & Switch 提出的本地优先软件架构宣言",
+          "en": "Ink & Switch's foundational essay on local-first architecture"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  }
+]

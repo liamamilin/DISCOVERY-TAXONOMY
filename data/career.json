@@ -1,0 +1,147 @@
+[
+  {
+    "id": "career-specifier-and-reviewer",
+    "arena": "career",
+    "lenses": [
+      "role-inversion",
+      "cost-collapse"
+    ],
+    "tags": [
+      "ai-era",
+      "skills",
+      "spec",
+      "review",
+      "职业转型",
+      "问题定义"
+    ],
+    "title": {
+      "zh": "从“技能执行者”转向“问题定义与验收者”",
+      "en": "Shifting from Executor to Specifier & Quality Reviewer"
+    },
+    "old_assumption": {
+      "zh": "个人职业护城河取决于自己亲手把活干得多快、工具用得多熟练。",
+      "en": "Career moat depends on how fast and skillfully you execute tasks by hand."
+    },
+    "new_shift": {
+      "zh": "纯执行正在被 AI 快速廉价化，真正稀缺且高薪的能力正迅速向两端集中：精准写清需求规格（Spec）与一眼揪出隐蔽缺陷（Review）。",
+      "en": "Pure execution is rapidly commoditizing; high-value leverage now concentrates at two ends—writing razor-sharp specs and spotting subtle defects in AI output."
+    },
+    "seed_prompts": {
+      "zh": [
+        "针对 [你的职业/岗位]，列出 5 个正在被 AI 迅速贬值的纯执行技能，以及 5 个因此变得更值钱的“定义问题/质量验收/责任兜底”类高杠杆能力。",
+        "帮我为 [你日常交付的一类核心产出，如 PRD/代码/营销方案] 设计一份“资深专家级验收清单（Review Rubric）”，让我从自己埋头写变成高效把关。"
+      ],
+      "en": [
+        "For [Your Role], list 5 pure execution skills rapidly losing market value to AI, and 5 high-leverage 'problem framing, taste, and quality review' skills rising in value.",
+        "Create a senior-level Review Rubric for [Core Deliverable You Produce] so I can shift from manual drafting to high-leverage specification and quality control."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Spec-Driven Development",
+        "url": "https://martinfowler.com",
+        "note": {
+          "zh": "工程界正从“手写每行代码”转向“维护高精度规格说明书与自动化测试”",
+          "en": "Software engineering shifting from hand-coding toward high-precision specs and verification"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-skill-stacking-monopoly",
+    "arena": "career",
+    "lenses": [
+      "cross-domain",
+      "first-principles"
+    ],
+    "tags": [
+      "talent-stack",
+      "positioning",
+      "niche",
+      "个人生态位",
+      "技能组合"
+    ],
+    "title": {
+      "zh": "用“2+1 技能组合”构造微型个人垄断",
+      "en": "Building a Personal Micro-Monopoly via Skill Stacking"
+    },
+    "old_assumption": {
+      "zh": "要在职场上胜出，必须在某一个单一赛道卷到全球前 1%。",
+      "en": "To win in your career, you must grind into the top 1% of a single crowded discipline."
+    },
+    "new_shift": {
+      "zh": "单一维度卷前 1% 极难，但把两项前 20% 的常见技能加上一个独特行业语境交叉叠加，就能立刻在交叉点形成几乎没有竞争对手的微型垄断。",
+      "en": "Reaching top 1% in one skill is brutal—combining two top-20% skills with one specific domain context creates an almost competition-free micro-monopoly."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我目前具备的技能、经历和兴趣包括：[列出 3-5 个你的标签]。请帮我做交叉组合，找出 5 个我不需要和顶级专家硬碰硬、却能天然占据优势的“微型生态位”。",
+        "在我现有的核心能力 [技能 A] 之外，只需花 3 个月补齐哪一个“低门槛跨界技能 [技能 B]”，就能让我的稀缺度和议价能力翻倍？"
+      ],
+      "en": [
+        "My current skills, experiences, and interests are: [List 3-5 Traits]. Cross-combine them to identify 5 micro-monopoly niches where I have an unfair edge without fighting top-1% specialists.",
+        "Beside my core skill [Skill A], which adjacent skill could I learn to a solid top-20% level in 90 days to double my rarity and leverage?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Scott Adams — Talent Stack",
+        "url": "https://en.wikipedia.org/wiki/Scott_Adams",
+        "note": {
+          "zh": "经典“技能栈”模型：用多项前 25% 能力的组合击败单一维度的内卷",
+          "en": "Classic talent-stack concept: combining multiple top-25% skills beats single-track grinding"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-proof-of-work-portfolio",
+    "arena": "career",
+    "lenses": [
+      "role-inversion",
+      "invisible-friction"
+    ],
+    "tags": [
+      "portfolio",
+      "proof-of-work",
+      "outbound",
+      "作品集",
+      "反向求职"
+    ],
+    "title": {
+      "zh": "用“前置作品证明”替代投递千篇一律的简历",
+      "en": "Replacing Generic Resumes with Permissionless Proof-of-Work"
+    },
+    "old_assumption": {
+      "zh": "找好机会、好客户或好工作，必须把简历投进招聘网站排队等 HR 筛选。",
+      "en": "Landing great roles or clients means submitting a PDF resume into job portals and waiting."
+    },
+    "new_shift": {
+      "zh": "AI 让投递成本归零后，HR 和甲方被海量完美简历淹没；直接针对目标团队的真实痛点做一个 2 小时的开源诊断或微型原型发过去，响应率高出一个数量级。",
+      "en": "AI flooded job boards with identical resumes—sending a 2-hour permissionless teardown or working mini-prototype for a target team's real problem cuts straight through the noise."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我想争取 [目标公司/目标客户类型] 的合作或岗位机会，我的强项是 [你的专长]。请帮我设计一个只需花半天时间就能做出的“免许可前置作品（Permissionless Proof-of-Work）”，以及一封 100 字以内不卑不亢的触达邮件。",
+        "把我的这段普通工作经历：[粘贴一段简历描述]，改造成一个让陌生人点开链接 30 秒就能看懂我实力的“可验证公开案例”。"
+      ],
+      "en": [
+        "I want to reach [Target Company/Client Type] using my strength in [Your Skill]. Design a half-day permissionless proof-of-work project I can build for them, plus a concise 100-word outreach message.",
+        "Turn this dry resume bullet—[Paste Bullet]—into a verifiable public case study a stranger can evaluate in 30 seconds."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Permissionless Apprentice (Jack Butcher)",
+        "url": "https://visualizevalue.com",
+        "note": {
+          "zh": "不等对方给职位，先免费交付高质量可视化作品赢得顶级合作机会",
+          "en": "Delivering unsolicited high-value work upfront to earn high-trust opportunities"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  }
+]

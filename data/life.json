@@ -1,0 +1,149 @@
+[
+  {
+    "id": "life-cognitive-bandwidth-hygiene",
+    "arena": "life",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "anxiety",
+      "bandwidth",
+      "focus",
+      "energy",
+      "精力管理",
+      "反焦虑"
+    ],
+    "title": {
+      "zh": "把“现代焦虑”当作后台耗电进程来清理",
+      "en": "Treating Modern Anxiety as Background CPU Drain"
+    },
+    "old_assumption": {
+      "zh": "下班累到连游戏都不想打、书也看不进，是因为自己懒或不够自律。",
+      "en": "Being too drained to even enjoy games or hobbies after work means you lack discipline."
+    },
+    "new_shift": {
+      "zh": "大脑的焦虑警报系统会像死循环进程一样在后台吃光全部心理带宽；先做“进程排查”关掉虚假生存警报，行动力和松弛感会自然恢复。",
+      "en": "Chronic low-grade anxiety runs like a rogue background process eating 90% of your mental RAM—killing false survival alarms restores joy and agency faster than willpower."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我最近感觉精力被掏空，脑子里一直在后台转着这些事：[列出让你隐隐焦虑的 3 件事]。请帮我做一次“心理带宽审计”：区分哪些是真实迫近的威胁，哪些是大脑误报的虚假警报，并给每项配一个 5 分钟内的物理收尾动作。",
+        "用“原始人视角”重新审视我当下的生活状态：[简述你的现状]，帮我把现代社会制造的虚拟压力翻译成底层现实，写一段 50 字以内的冷静重置口诀。"
+      ],
+      "en": [
+        "My mental RAM feels maxed out by these nagging thoughts: [List 3 Worries]. Run a 'background process audit' separating real immediate threats from false alarms, and give each a 5-minute physical closure step.",
+        "Reframe my current stress—[Briefly Describe Situation]—through a grounded first-principles lens to separate real survival needs from manufactured modern pressure."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Scarcity (Sendhil Mullainathan & Eldar Shafir)",
+        "url": "https://en.wikipedia.org/wiki/Scarcity:_Why_Having_Too_Little_Means_So_Much",
+        "note": {
+          "zh": "行为经济学研究：匮乏感与焦虑会直接征收“认知带宽税”",
+          "en": "Behavioral economics research showing how anxiety directly taxes cognitive bandwidth"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-default-environment-engineering",
+    "arena": "life",
+    "lenses": [
+      "cross-domain",
+      "invisible-friction"
+    ],
+    "tags": [
+      "habits",
+      "environment",
+      "friction",
+      "systems",
+      "环境设计",
+      "习惯"
+    ],
+    "title": {
+      "zh": "用“工程摩擦力设计”替代消耗意志力",
+      "en": "Engineering Environmental Friction Instead of Willpower"
+    },
+    "old_assumption": {
+      "zh": "戒掉坏习惯、养成好习惯，靠的是每天逼自己咬牙坚持和打卡。",
+      "en": "Building good habits and breaking bad ones requires daily willpower and streak tracking."
+    },
+    "new_shift": {
+      "zh": "人的默认行为高度服从“最小阻力路径”；给坏习惯人为增加 20 秒操作摩擦、给好习惯减掉 2 个前置步骤，效果远胜过任何励志鸡汤。",
+      "en": "Human defaults follow the path of least resistance—adding 20 seconds of friction to bad habits and removing 2 setup steps from good ones beats willpower every time."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我想减少 [某个坏习惯，如睡前刷手机]，并增加 [某个好习惯，如每天运动/阅读 20 分钟]。不要给我鸡汤，请从物理空间和手机设置两个维度，设计 5 个“加摩擦/减摩擦”的硬核环境改造方案。",
+        "审视我每天下班后的固定动线：[描述你回家后的前 30 分钟]，找出导致我滑向低质量娱乐的“默认触发点”，设计一个几乎不费脑子的替换动线。"
+      ],
+      "en": [
+        "I want to do less [Bad Habit] and more [Good Habit]. Skip motivational advice—give me 5 concrete physical-space and device-setting tweaks that add friction to the bad default and remove friction from the good one.",
+        "Audit my post-work routine—[Describe First 30 Mins at Home]—pinpoint the default trigger leading to low-quality scrolling, and engineer an effortless replacement path."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Atomic Habits — Environment Design",
+        "url": "https://jamesclear.com/choice-architecture",
+        "note": {
+          "zh": "选择架构（Choice Architecture）：改变环境默认选项比改变人性容易十倍",
+          "en": "Choice architecture: redesigning defaults is 10x easier than fighting human nature"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-micro-experiments-lifestyle",
+    "arena": "life",
+    "lenses": [
+      "cost-collapse",
+      "first-principles"
+    ],
+    "tags": [
+      "experiments",
+      "tiny-bets",
+      "lifestyle",
+      "prototyping",
+      "人生实验",
+      "小步试错"
+    ],
+    "title": {
+      "zh": "用“14 天微型实验”替代宏大的人生决定",
+      "en": "Running 14-Day Micro-Experiments Instead of Big Life Bets"
+    },
+    "old_assumption": {
+      "zh": "换城市、转行、开启副业或改变作息，必须先彻底想清楚再孤注一掷。",
+      "en": "Moving cities, switching careers, or changing lifestyles requires figuring everything out before making a huge leap."
+    },
+    "new_shift": {
+      "zh": "绝大多数人生纠结都是“空想出来的”；把宏大决定压缩成一个低成本、可回滚的 14 天原型实验，亲身跑一遍拿到真实体感数据，答案立刻浮现。",
+      "en": "Most life paralysis comes from overthinking without data—shrinking big decisions into cheap, reversible 14-day prototypes gives you real lived signal fast."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我一直在纠结一个比较大的人生/生活方式选择：[描述你的纠结，如移居/自由职业/新方向]。请帮我把它压缩成一个“成本极低、完全可回滚”的 14 天微型原型实验，包含具体执行动作和 3 个评估指标。",
+        "针对我想尝试的新生活方式 [描述理想状态]，列出我目前最可能高估的幻想和最可能低估的日常麻烦，设计一次周末就能跑通的“最小现实模拟”。"
+      ],
+      "en": [
+        "I've been overthinking a big life choice: [Describe Choice, e.g., relocating/freelancing/new path]. Compress it into a cheap, reversible 14-day micro-experiment with daily actions and 3 clear pass/fail signals.",
+        "For the lifestyle I'm romanticizing—[Describe Lifestyle]—identify what I'm likely over-glorifying or underestimating, and design a weekend reality-check simulation."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Tiny Experiments (Anne-Laure Le Cunff)",
+        "url": "https://nesslabs.com/tiny-experiments",
+        "note": {
+          "zh": "用科学实验的假设-验证循环替代线性目标焦虑",
+          "en": "Replacing rigid linear goals with small, curiosity-driven personal experiments"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  }
+]

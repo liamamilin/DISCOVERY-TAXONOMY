@@ -1,0 +1,157 @@
+[
+  {
+    "id": "business-micro-glue",
+    "arena": "business",
+    "lenses": [
+      "invisible-friction",
+      "cost-collapse"
+    ],
+    "tags": [
+      "micro-saas",
+      "b2b",
+      "workflow",
+      "glue",
+      "胶水工具",
+      "变现"
+    ],
+    "title": {
+      "zh": "“无聊但高客单”的微垂直胶水服务",
+      "en": "Boring, High-Ticket Micro-Glue Services"
+    },
+    "old_assumption": {
+      "zh": "赚钱的软件必须做大而全的平台，或者追求海量 C 端流量。",
+      "en": "Profitable software must be an all-in-one platform or chase massive consumer traffic."
+    },
+    "new_shift": {
+      "zh": "开发成本坍塌后，专门打通两个传统软件数据断层的“小胶水”反而毛利极高、客户留存极稳。",
+      "en": "With near-zero dev costs, tiny glue tools bridging two legacy software silos now offer high margins and sticky retention."
+    },
+    "seed_prompts": {
+      "zh": [
+        "列出 5 个在 [你的行业/岗位] 中，人们目前必须手动把数据从软件 A 复制粘贴到软件 B 的高频痛点，并评估做成自动化微工具的付费意愿。",
+        "针对 [某具体软件生态，如 Shopify/Notion/飞书]，有哪些官方懒得做、但专业用户愿意每月付 20 美元解决的“最后一公里”断层？"
+      ],
+      "en": [
+        "List 5 high-frequency workflows in [Your Industry] where people manually copy-paste data from App A to App B, and evaluate willingness to pay for an automated glue tool.",
+        "Within the [Specific Ecosystem, e.g., Shopify/Notion] ecosystem, what 'last-mile' gaps are too small for the platform to build yet worth $20/mo to power users?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Papermark",
+        "url": "https://www.papermark.io",
+        "note": {
+          "zh": "两人自举切入文档分享与追踪痛点，跑出数百万美元 ARR",
+          "en": "2-person bootstrapped doc-sharing tool reaching multi-million ARR"
+        }
+      },
+      {
+        "name": "Tally",
+        "url": "https://tally.so",
+        "note": {
+          "zh": "把传统笨重的表单工具重新做轻，极小团队实现高额盈利",
+          "en": "Lean team reimagining bloated form builders into a beloved indie SaaS"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-outcome-pricing",
+    "arena": "business",
+    "lenses": [
+      "role-inversion",
+      "first-principles"
+    ],
+    "tags": [
+      "pricing",
+      "saas",
+      "agent",
+      "service-as-software",
+      "按结果付费",
+      "商业模式"
+    ],
+    "title": {
+      "zh": "从“按人头卖软件”转向“按结果卖交付”",
+      "en": "Service-as-Software: Pricing by Outcome, Not Seats"
+    },
+    "old_assumption": {
+      "zh": "B2B 软件的标准商业模式是 SaaS 按席位（per-seat）收费，把工具交给客户自己操作。",
+      "en": "Standard B2B software charges per-seat subscriptions and leaves the customer to operate the tool."
+    },
+    "new_shift": {
+      "zh": "当 AI 工作流能端到端干完活，客户不再愿意为“多一个登录账号”付钱，而是愿意为“挽回一笔坏账/产出一份合规报告”按结果付费。",
+      "en": "When AI workflows finish the job end-to-end, buyers stop paying for extra logins and happily pay per resolved ticket, recovered invoice, or completed deliverable."
+    },
+    "seed_prompts": {
+      "zh": [
+        "针对 [某个传统服务行业，如财税/招聘/法务/跨境电商]，拆解一个目前按人工工时收费的环节，设计“AI 自动执行 + 人工兜底 + 按结果计费”的报价结构。",
+        "如果我要把 [你的专业技能] 包装成一个“按单交付结果”的产品化服务（Productized Service），最小闭环的定价、交付 SLA 和防扯皮边界该怎么写？"
+      ],
+      "en": [
+        "Pick a labor-billed task in [Target Industry, e.g., accounting/recruiting/legal] and design an 'AI-executed + human-reviewed + outcome-priced' offer.",
+        "If I package [Your Core Skill] into an outcome-based productized service, how should I structure pricing, delivery SLA, and scope boundaries?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Intercom Fin",
+        "url": "https://www.intercom.com/fin",
+        "note": {
+          "zh": "率先推行“每成功解决一次客服工单收费 $0.99”的按结果定价",
+          "en": "Pioneered $0.99 per AI-resolved customer support ticket pricing"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-unbundling-bloat",
+    "arena": "business",
+    "lenses": [
+      "first-principles",
+      "invisible-friction"
+    ],
+    "tags": [
+      "unbundling",
+      "indie",
+      "pricing",
+      "lite-alternative",
+      "拆解巨头",
+      "轻量化"
+    ],
+    "title": {
+      "zh": "专拆巨头全家桶里的“10% 核心功能”",
+      "en": "Unbundling the 10% Core Feature from Bloated Giants"
+    },
+    "old_assumption": {
+      "zh": "赛道里已经有大厂巨头了，小团队进去就是送人头。",
+      "en": "If an incumbent giant already owns the category, a solo founder has no chance."
+    },
+    "new_shift": {
+      "zh": "巨头为了服务大企业客户必然越来越臃肿昂贵，精准剥离其中 10% 高频功能并做到极致顺手、价格打三折，反而是最稳的印钞机。",
+      "en": "Giants inevitably bloat to chase enterprise contracts—carving out their top 10% feature with 10x faster UX at a fraction of the price is a proven indie goldmine."
+    },
+    "seed_prompts": {
+      "zh": [
+        "列出 5 款在 [你熟悉的行业/工作流] 中被用户疯狂吐槽“太重、太贵、功能用不到 10%”的巨头软件，指出每款软件最值得被单独拆出来的核心微功能。",
+        "分析 [某款臃肿巨头软件，如 Jira/Salesforce/Photoshop] 在 Reddit 或 G2 上的一星差评，提炼出 3 个独立开发者可以切入的极简替代品切口。"
+      ],
+      "en": [
+        "List 5 bloated enterprise tools in [Your Industry] where users complain they only use 10% of the features, and identify the sharpest single feature to unbundle.",
+        "Analyze the recurring complaints about [Bloated Incumbent, e.g., Jira/Salesforce] and propose 3 focused, fast indie alternatives."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Plausible Analytics",
+        "url": "https://plausible.io",
+        "note": {
+          "zh": "拆解臃肿复杂的 Google Analytics，只做极简隐私友好统计",
+          "en": "Unbundled bloated Google Analytics into a simple, privacy-friendly dashboard"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  }
+]
