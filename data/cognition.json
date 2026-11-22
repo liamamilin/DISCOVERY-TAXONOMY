@@ -780,5 +780,102 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "cognition-unsigned-implicit-contracts",
+    "arena": "cognition",
+    "lenses": [
+      "role-inversion",
+      "first-principles"
+    ],
+    "tags": [
+      "implicit-contracts",
+      "assumptions",
+      "autonomy",
+      "盲区",
+      "隐性合约"
+    ],
+    "title": {
+      "zh": "揪出你从未签字、却一直在履行的“隐性合约”",
+      "en": "Surfacing Implicit Contracts You Never Signed Yet Keep Honoring"
+    },
+    "old_assumption": {
+      "zh": "很多做事规矩和人生步骤既然大家都在照做，说明那是客观条件或默认必选项。",
+      "en": "When everyone follows a norm or milestone sequence, it feels like an objective constraint rather than a choice."
+    },
+    "new_shift": {
+      "zh": "许多卡点来自你顺手接受的“未签字合约”（比如做工具必须通用、产出必须公开发布、遇到问题先找现成方案）；一旦挑明，很多束缚当场失效。",
+      "en": "Much friction comes from unsigned contracts you treat as binding—naming them lets you renegotiate or drop rules that never served your real goal."
+    },
+    "seed_prompts": {
+      "zh": [
+        "审视我目前正在推进的 [项目/工作流/生活安排]：[简述现状]。帮我列出 4 条我可能“默认签了字、但其实根本没必要遵守”的隐性合约，并指出哪一条最值得立刻打破。",
+        "针对 [某个让你觉得被绑住或有负担的规矩或惯例]，帮我拆解：这是真实硬约束，还是只是习惯成自然的隐性预设？"
+      ],
+      "en": [
+        "Audit my current [Project, Workflow, or Routine]: [Brief Context]. Surface 4 implicit 'contracts' I may be honoring by default without ever agreeing to them, and flag the easiest one to break.",
+        "For [Rule or Habit That Feels Restrictive], separate real external constraints from unexamined habits we can rewrite."
+      ]
+    },
+    "signals": [
+      {
+        "name": "First-Principles Premise Auditing",
+        "url": "https://fs.blog/first-principles/",
+        "note": {
+          "zh": "把看似既定的前提拆开检视，往往能发现根本不存在的隐形围栏",
+          "en": "Inspecting taken-for-granted premises reveals invisible fences you never had to stay inside"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
+  },
+  {
+    "id": "cognition-wrong-coordinate-problem-framing",
+    "arena": "cognition",
+    "lenses": [
+      "first-principles",
+      "cross-domain"
+    ],
+    "tags": [
+      "problem-framing",
+      "coordinates",
+      "blindspots",
+      "reframing",
+      "坐标错位",
+      "重定问题"
+    ],
+    "title": {
+      "zh": "别在“算错坐标系的题”上算得更准，先换题目坐标系",
+      "en": "Stop Computing Faster Inside the Wrong Problem Coordinate System"
+    },
+    "old_assumption": {
+      "zh": "推进不顺或结果不理想时，说明方法还不够细、执行还不够到位。",
+      "en": "When a plan stalls or misses, the fix is sharper execution or more detail inside the same framing."
+    },
+    "new_shift": {
+      "zh": "有时问题卡住不是算力不够，而是“题目本身问在错误的坐标系里”（比如用线性时间去解非线性跃迁，或用局部指标代替真实结果）；换坐标系比加倍努力更有效。",
+      "en": "Stalling often means you're optimizing inside the wrong frame—shifting the problem's coordinates or unit of measure unlocks leverage that extra effort cannot."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我最近在 [某个目标/项目/难题] 上花了不少力气但进展有限：[简述现状]。请帮我跳出当前解法，提出 2 个完全不同的“问题坐标系”来重新定义这件事。",
+        "检查我目前用来衡量 [某件事进展] 的指标：[填当前指标]，它有没有可能把人引向错误方向？建议一个更贴近本质的替代视角。"
+      ],
+      "en": [
+        "I've put real effort into [Goal, Project, or Problem] with limited traction: [Brief Context]. Step outside current fixes and propose 2 different coordinate frames to re-pose the problem.",
+        "Check the metric I use for [Project or Habit]—[Current Metric]—and tell me how it could distort behavior or miss what actually matters."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Reframing & Mental Models",
+        "url": "https://nesslabs.com",
+        "note": {
+          "zh": "切换观察问题的坐标系，常能把死结变成顺手可解的题",
+          "en": "Changing the coordinate frame often turns a stubborn dead-end into a clean question"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]

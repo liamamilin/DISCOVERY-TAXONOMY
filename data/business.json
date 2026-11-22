@@ -839,5 +839,54 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "business-testing-unspoken-buyer-assumptions",
+    "arena": "business",
+    "lenses": [
+      "role-inversion",
+      "invisible-friction"
+    ],
+    "tags": [
+      "discovery",
+      "assumptions",
+      "buyers",
+      "validation",
+      "隐性假设",
+      "需求验证"
+    ],
+    "title": {
+      "zh": "先验证“买家默认不愿意改变的习惯”，再打磨功能",
+      "en": "Testing Habits Buyers Refuse to Change Before Polishing Features"
+    },
+    "old_assumption": {
+      "zh": "只要产品功能够全、界面够好，解决痛点后用户自然会切换过来。",
+      "en": "Once features are solid and UI is clean, users will naturally switch when the pain is real."
+    },
+    "new_shift": {
+      "zh": "人们最抗拒的往往不是“没好工具”，而是“改变现有习惯、迁移历史数据或承担切换风险”；先测清他们宁愿忍受什么也不改，才能找准真正能落地的切口。",
+      "en": "Switching costs, habit inertia, and migration fear often block adoption even when a tool is better—test what buyers refuse to change before building deep features."
+    },
+    "seed_prompts": {
+      "zh": [
+        "针对 [你的目标用户/客户群体] 在 [某场景] 下的现状：[简述他们现在怎么凑合做]。帮我列出 4 个可能导致他们“懒得切换”的习惯阻力或迁移顾虑，以及低成本验证方法。",
+        "在 [你的产品或服务设想] 中，哪一个“需要用户改变原有习惯”的动作最容易卡住转化？"
+      ],
+      "en": [
+        "For [Target Buyers] handling [Workflow] today—[Describe Current Workaround]—list 4 habit or switching frictions that could keep them put, plus cheap ways to test them.",
+        "In [Product or Service Idea], which required habit shift is most likely to stall early adoption?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Customer Discovery & Switching Friction",
+        "url": "https://www.indiehackers.com",
+        "note": {
+          "zh": "及早看清用户既有习惯与迁移阻力，能避免把精力花在“叫不醒装睡的习惯”上",
+          "en": "Spotting habit inertia and switching friction early saves building features users won't adopt"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]

@@ -854,5 +854,54 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "build-local-optimization-deadlocks",
+    "arena": "build",
+    "lenses": [
+      "invisible-friction",
+      "first-principles"
+    ],
+    "tags": [
+      "systems",
+      "bottlenecks",
+      "deadlock",
+      "architecture",
+      "局部最优",
+      "系统僵局"
+    ],
+    "title": {
+      "zh": "排查“局部合理却拼出全局僵局”的系统死锁",
+      "en": "Diagnosing System Deadlocks Built Out of Locally Sensible Rules"
+    },
+    "old_assumption": {
+      "zh": "只要每个步骤、每个规则单独看都合理安全，拼在一起的系统就不会卡死。",
+      "en": "If every individual rule or step makes local sense and feels safe, the combined system will work smoothly."
+    },
+    "new_shift": {
+      "zh": "每一步都加缓冲、加审批、加特判，单独看都很聪明，合在一起却可能让整条链路变得迟钝、脆弱甚至无人敢动；要看全局流转而不是单点合理。",
+      "en": "Locally smart buffers, extra checks, and special cases can combine into sluggishness, fragility, or paralysis—inspect end-to-end flow rather than isolated rules."
+    },
+    "seed_prompts": {
+      "zh": [
+        "梳理我目前常用的 [工作流 / 工具链 / 协作机制]：[简述各环节与规则]。帮我找出哪些“单独看很合理”的规则，合在一起反而制造了等待、绕路或僵局。",
+        "如果把 [你觉得有点卡顿或繁琐的流程] 当作一条流转管道来检查，最容易产生“堵车或死锁”的节点在哪里？"
+      ],
+      "en": [
+        "Map my current [Workflow, Tooling Chain, or Process]: [Describe Steps & Rules]. Find rules that look sensible in isolation but create bottlenecks, detours, or paralysis end-to-end.",
+        "Inspect [Slow or Cumbersome Process] as a flow pipeline and spot where congestion or deadlocks actually build up."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Systems Thinking & Flow Bottlenecks",
+        "url": "https://donellameadows.org/systems-thinking-in-action/",
+        "note": {
+          "zh": "系统整体的行为往往由环节间的连接与反馈决定，而非单点局部最优",
+          "en": "Whole-system behavior emerges from connections and delays rather than isolated local optimization"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]

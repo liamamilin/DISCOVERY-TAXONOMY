@@ -828,5 +828,53 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "career-reversible-career-probes",
+    "arena": "career",
+    "lenses": [
+      "cost-collapse",
+      "role-inversion"
+    ],
+    "tags": [
+      "career-probes",
+      "experiments",
+      "optionality",
+      "职业试探",
+      "低成本实验"
+    ],
+    "title": {
+      "zh": "把转行或新方向当成“可撤回的试探”，而不是孤注一掷的考试",
+      "en": "Treating Career Pivots as Reversible Probes Instead of All-or-Nothing Exams"
+    },
+    "old_assumption": {
+      "zh": "换方向、试新赛道要么辞职梭哈、要么继续原样，中间没有低代价试探的余地。",
+      "en": "Changing tracks looks like an all-or-nothing leap or staying put—leaving little room for cheap, reversible probes."
+    },
+    "new_shift": {
+      "zh": "很多时候你并不缺勇气，缺的是把“大跳水”拆成几周就能拿到真实体感的小试探（做个微型案例、聊几位一线从业者、接一个低风险小任务）；先试水再决定是否押注。",
+      "en": "You don't always need a giant leap—small, low-cost probes (a mini build, real conversations, a scoped test task) give lived signal before you commit."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我正在考虑或好奇 [某个新方向/新角色/新赛道]：[简述你的背景与好奇点]。请帮我设计 2 个“不用辞职、几周内就能拿到真实体感”的低成本试探动作。",
+        "在 [你想探索的新方向] 里，最容易让人产生“滤镜/想象”的地方是什么？怎么用一次小试探去祛魅？"
+      ],
+      "en": [
+        "I'm curious about [New Direction, Role, or Field]: [Background & Curiosity]. Design 2 low-cost, reversible probes I can run in a couple of weeks to get real signal.",
+        "What part of [New Direction] am I most likely romanticizing, and how can a small test give a realistic look?"
+      ]
+    },
+    "signals": [
+      {
+        "name": "Tiny Experiments & Career Prototyping",
+        "url": "https://nesslabs.com/tiny-experiments",
+        "note": {
+          "zh": "用低成本小实验收集真实体感，比在脑子里反复推演更稳妥",
+          "en": "Small, reversible experiments gather real signal more reliably than endless mental rehearsal"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]

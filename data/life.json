@@ -830,5 +830,53 @@
       }
     ],
     "added_at": "2026-11-22"
+  },
+  {
+    "id": "life-ai-as-stress-tester-not-decision-crutch",
+    "arena": "life",
+    "lenses": [
+      "role-inversion",
+      "first-principles"
+    ],
+    "tags": [
+      "ai-boundaries",
+      "agency",
+      "decisions",
+      "判断边界",
+      "人机分工"
+    ],
+    "title": {
+      "zh": "让 AI 帮你“压力测试选项”，而不是替你替自己做决定",
+      "en": "Using AI to Stress-Test Choices Rather Than Outsource Your Judgment"
+    },
+    "old_assumption": {
+      "zh": "纠结或拿不定主意时，直接让 AI 替我选一个或给标准答案最省事。",
+      "en": "When torn or uncertain, having AI pick an option or hand over a neat answer feels like the fastest relief."
+    },
+    "new_shift": {
+      "zh": "生活与选择里的权重、代价和喜好只有你自己能承担；让 AI 帮拆盲区、列反方、算代价，但最终拍板和承担后果的权柄留在自己手里，才不会越用越虚。",
+      "en": "Trade-offs, personal stakes, and tastes belong to you—let AI expose blindspots and test assumptions, while keeping final judgment and ownership in your hands."
+    },
+    "seed_prompts": {
+      "zh": [
+        "我正在 [A 选项 vs B 选项] 之间纠结：[简述两个选项与你的顾虑]。不要替我做决定，请帮我分别列出选 A 和选 B 最容易忽略的代价与前提。",
+        "针对我目前的一个重要选择：[简述选择]，帮我提出 3 个直击内心真实偏好与底线的追问，帮我自己看清更想要什么。"
+      ],
+      "en": [
+        "I'm weighing [Option A vs. Option B]: [Context & Concerns]. Don't pick for me—surface the hidden trade-offs and assumptions behind each choice.",
+        "For [Decision I'm Facing], ask me 3 pointed questions about my real priorities and limits so I can make the call clearly."
+      ]
+    },
+    "signals": [
+      {
+        "name": "Human Agency in Decision-Making",
+        "url": "https://fs.blog/decision-making/",
+        "note": {
+          "zh": "借助外部视角看清利弊，同时守住自身判断与选择责任，是更稳健的决策姿势",
+          "en": "Using outside perspectives to see trade-offs while keeping judgment and ownership intact"
+        }
+      }
+    ],
+    "added_at": "2026-11-22"
   }
 ]
